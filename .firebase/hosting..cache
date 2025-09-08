@@ -1,0 +1,416 @@
+DEPLOYMENT.md,1756224170590,494ac40edae96c81fc99179ec173a0166264c60e50619326100234a03c792fae
+Readme.txt,1726146354000,7d4690a30ac70793a3db8c17897d265a83ab99d805482a8b808bde279a8fee85
+service-details.html,1756225142095,401e13a62fbb42df2a68a23029451153b5e96fd4b25f048d05b7adff7740fc87
+starter-page.html,1756225178922,34ba5a21ab7eca15c82577defa1a6681979f831bc4b3eccf22ac72f9363901a8
+assets/img/about.jpg,1756219615836,e1f74a056b32db0839eb70229d168a286dbc6d31b757163c1a7f785de0494744
+assets/img/apple-touch-icon.png,1726146354000,0b1ae0241ef418d7397bf874d1f54916ec2b24f1691c66f1a8bd603b792ba94f
+assets/img/departments-1.jpg,1726146354000,1a4444650d7022786f9d9102fe5566ae04102151d1751d8c16cf8480afd21351
+assets/img/departments-2.jpg,1726146354000,58eac2ae43b19f633373d64492c02e955c1985181a1ae80e88bc9fd96f74d4ab
+assets/img/departments-3.jpg,1726146354000,ab939c82e6efd2ec36235a4e77a590cd61c84a4cff179dd2620a9afdf7893470
+assets/img/departments-4.jpg,1726146354000,dfd375e15ede11d488d9f87ff48500dbee2f043f61757beef5e5b90c9f8eb888
+assets/img/departments-5.jpg,1726146354000,09441ac5f2eb5c03a7f6b9daf8f619ff2df8db7e7f7ab32cdeb9d1de4d538e6d
+assets/img/features.jpg,1756220253621,f6a9cf58fed5ec5ba4d0d8061598ee04dd5a4af13c935c30195512a341ff035f
+assets/img/logo.png,1756215213758,7b23bc36beb5314611b7f5fed0c5501a16726dadbb51d4e088d4248411d58251
+assets/img/logo2.png,1756222310500,7dddc1046695f11a87bf2dab52ed8e95686a06bc4c635faee722f6be4173caaa
+assets/img/services.jpg,1726146354000,816f0b195481f896c942f43532a6c71f149daaa71a2ad55e4ad0dc5387b3c642
+assets/img/gallery/gallery-1.jpg,1756218665717,2dc89b64653d5a5c757decb5e38505ac8f6305db249e85efa460e3c4a7934890
+assets/img/gallery/gallery-2.jpg,1756218806152,215f686441e8ab71d2c8c6226ac7ec2e463c61ba2caeb61e7dd5b7820bc43cdd
+assets/img/gallery/gallery-3.jpg,1756218964795,2540943e103879b5767ef84d891c223ee8ffae490313304d06b1965a5745c303
+assets/img/gallery/gallery-4.jpg,1756219079211,f102798a041ddc8a648d7e618c5dff38bb3ba4458a45fd6a15722fcc77902aa6
+assets/img/gallery/gallery-5.jpg,1756219465468,a73d0491dc93b1c4a804bb5feee495adbd921b89253059dadc34eabe88c0ecba
+assets/img/gallery/gallery-6.jpg,1756219222808,3892d4ca0559f6fedaa127c7bd47ec30bcc504a7a854367666b18a2de0a5d6ab
+assets/img/gallery/gallery-7.jpg,1726146354000,994066567cbd66fd15a3536197873bf441d300418f294dec920592f95234812d
+assets/img/gallery/gallery-8.jpg,1726146354000,61093e103d7eca6f328a2acd177adb4cc48fb2d6d987c59c1803765078a6c0e7
+assets/img/hero-carousel/hero-carousel-1.jpg,1756216994873,21d56fc3f3dcbb4b3ee6e8b73d2e4fc3eb34c11a7eb37d4b2ab32ef6b6b3e399
+assets/img/hero-carousel/hero-carousel-2.jpg,1756217224806,e26aa7d2a6d89aa18c0dc03c1834495a49fbed818cea51659d3ce8b6743469d6
+assets/img/hero-carousel/hero-carousel-3.jpg,1756217137371,fa2746825de310ff35e98c005439a4cf6c403702ab4f4661a79e3473d27b942c
+international-publication.html,1757123221426,55c51eb872baefefabccbced372ce60c71e9e9126ae3030190c5e18383e85a8a
+publication.html,1757123624681,b768f935f6b5c9edec2f8cb5b69af0bf4f82bff6316ebb102e59da452d66903b
+videos.html,1757123549497,20d2a343b6bb3a60d3c44aa00c55c8621db22345351dcbdf1803005b66f3829c
+media-award.html,1757123552919,3894abea5ba894315f3235c47a5821c26baa2b9f7221efef4177623f260193cb
+news.html,1757123542212,af2aa5699c0bf2666500f29db60ad7199a2356c1af51184efe65091eaf630d21
+gallery.html,1757126236576,0e8c448165fba6ce74122722eb4ae9d721be1e9c7101023ff2302d4015f7a631
+index.html,1757125109419,eb44422eaf9adc4e9c11f4ca3fad8f30e24eb95d8f72025efb4e3abde2db4e6f
+assets/css/main.css,1757123279833,81fa4035d3e2d6f36361f8f7fb739f1947e722039a68e4ceb0a530d55acb0654
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_10_IMG_7442-scaled.jpg,1757124563656,fb61f0b082289d32ea83471273c781721acd83ad3e6d916b9e1eec197b5a77c4
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_13_IMG_7432-scaled.jpg,1757124563659,bddf80025b9b7503ef933d0aef6fb7a11ee2e2b8541b8561d30e0585c318de8f
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_11_IMG_7441-scaled.jpg,1757124563657,910b4ff2f57fc0966d29d773af4392db611a8e7b1fe1c6c1ac57631e2a528f83
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_12_IMG_7433-scaled.jpg,1757124563658,5561e19016e045ba8714f8906db1211bfd5f8f4fe66733f71839b4a413769519
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_17_IMG_7418-scaled.jpg,1757124563662,df5a07c6c7d733f8c0b82a988f8c921afce75408f8c0eeaf580ada3960c5a7e7
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_15_IMG_7421-1-scaled.jpg,1757124563661,df3b13a92ebaab46b2b98291e02187c5b1fcd66bcbb1c5040ccf4d10155fd4bc
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_14_IMG_7430-1-scaled.jpg,1757124563660,c08f87379a49c8eab8eb0c4696bbe31ab76763f27d74db4e65553dffa77f893c
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_20_IMG_7409-1-scaled.jpg,1757124563666,97f94370b92eb00f6fb8dbd34cc23bfce87796e3a46ff5ee3046921a22c8f7ad
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_23_IMG_7389-scaled.jpg,1757124563669,c7f8c127379d83b9356f76b5d9b402c064d38dc15726d90a2112ee8f193ad58d
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_27_IMG_7376-scaled.jpg,1757124563672,36f6bce0a013c0f16d7e2c087e525ab7942f8ff2d47c6e063eec41177b809788
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_18_IMG_7413-scaled.jpg,1757124563663,421b46397b2c0488d86c7ab2b187dfcd42173d5917e7d3fa2effc395fc905233
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_16_IMG_7420-scaled.jpg,1757124563661,a8584c42748b2f09be5f7f4ae03b3b41f49d11283c6c36fab35f8e1dc390c046
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_19_IMG_7410-scaled.jpg,1757124563664,46e4336016c475aa5cec17ea6821e167c054dce664939f8c7a889eb1415a847e
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_22_IMG_7395-1-scaled.jpg,1757124563668,10eb04307b532668b99f77554e098f7d8f0b17fc33ca54987d4ff956c1525763
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_25_IMG_7383-1-scaled.jpg,1757124563670,f19a2a341f6ca677464e8779d145821cd3f3716e3e42a39e182a2f5a65f77002
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_21_IMG_7396-scaled.jpg,1757124563667,09eca671c9f8add1675ab63ed33814e20f0be1b239dd15b0661b3d3f652f691a
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_2_IMG_7464-scaled.jpg,1757124563676,873b35d8f725599d792df1de0edc56c336b50caee9db58bd78351d539d52ee98
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_24_IMG_7386-scaled.jpg,1757124563669,7996adab4dd0f32b93d8e2e28cab34d4d0b807a037a89e3cabbbecc316affa43
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_26_IMG_7380-1-scaled.jpg,1757124563671,1346ec230de63b1a4baeb98dd3f376e394779fee974d28a756686c5362c40f38
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_29_IMG_7373-scaled.jpg,1757124563675,996d8a030c88f7b46ecac67a2e8dbd040b75143399799c795c8a0f100f2200d0
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_28_IMG_7375-scaled.jpg,1757124563673,a8a5846cb33872455f2268147c7101c15e2ecd4c10f694096ca53857316e67c2
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_30_IMG_7371-scaled.jpg,1757124563677,d718527eddde45dc2c6c9eb7cb452291033af841845ff3bc03efa1f8faabb317
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_31_IMG_7368-1-scaled.jpg,1757124563678,516c79101f1c86ca8dfeb364bff06daae16431615f0e6ee2e52646003b946e25
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_3_IMG_7460-scaled.jpg,1757124563683,0444c4141bc217aca03ab4d4fd3cf0c4d38a270bae39f0d889f58f9a37626b85
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_36_GhNCDA-logo-768x589.jpg,1757124563679,5615df0483ad78388ccc563c205d88219d97c179f9558b32546e1da29359dcd0
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_4_IMG_7458-scaled.jpg,1757124563697,6cf7bd6af89f1f8f4e385b632c7a933c1893d885f5c4ea2ba338a51476ce5c98
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg,1757124563665,88e0680dbdae964ebcfada10d69af666fc96a15f7b9bc147e1083385d58bccaa
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_7_IMG_7449-scaled.jpg,1757124563729,39b19008ec16ed95b4115166b57ab43fb9b146835077488c9d39e64dd2fc887a
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_42_IMG_7449-scaled.jpg,1757124563687,b996e17f012a8b145c8fdba3ab29107d6737a7a4e06c9bddbdc714cc27b7b97c
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_5_IMG_7456-scaled.jpg,1757124563717,731dd98dbd644a9e337239610fea4592aa5ad201662dab0cd4ab854d46c51344
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_8_IMG_7445-scaled.jpg,1757124563729,0e13f0f92dbc2f6911fdef007f54379786ff72965e87476247f1b673d47764db
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_6_IMG_7455-scaled.jpg,1757124563728,7f484c31750982b732e34a68947320334d5b7999119a8e5d28608c6eb06fb0e4
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_9_IMG_7444-scaled.jpg,1757124563730,455166207ed5363d4957e91ae487ddc5ffb917c80d07920bf185945822b64a90
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_45_IMG_7442-scaled.jpg,1757124563691,986ba635a30caad3bfdb100ca3bfb9158170b510c0e02913c2a962ae76c2d2e1
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_43_IMG_7445-scaled.jpg,1757124563688,5e00a1648970172f44503b99267607ddfe157414ed2775aa4773e056bbe6a718
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_48_IMG_7432-scaled.jpg,1757124563695,57b34b13091430172b733f29003071a34114d15a0cee8b0ea0b2968bc75812a9
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_47_IMG_7433-scaled.jpg,1757124563694,dbc798f6dfcc473cd541e9e923f19c6e6dfa03193fa12f119b0ccd895b462b9c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_10_WhatsApp-Image-2025-01-09-at-18.25.40-5.jpg,1757124085158,d126313787c3fb5b73e2c224251f4721ea106c06ed89624a33e59da652df1f78
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_12_WhatsApp-Image-2025-01-09-at-18.25.41-2.jpg,1757124085159,489ead0dff5cd6b6e67634a89e44d651b83ba60d4fa7d801f13ac4e8564ba936
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_13_WhatsApp-Image-2025-01-09-at-18.25.41-3.jpg,1757124085160,d84ced35216a67c1b0868f1377edf4c57f9630a48cd95073e5cea4bb5726c58c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_11_WhatsApp-Image-2025-01-09-at-18.25.41-1.jpg,1757124085159,aa359ba30bfe50d29a2057a48b1b11d7a0f4fbaa1f4e041c270285624846d16c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_16_WhatsApp-Image-2025-01-09-at-18.25.41-5.jpg,1757124085162,673f6e08f9ed9307bca9f567ba7e5d59d4ee88b5c664b0599335304415f41c23
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_14_WhatsApp-Image-2025-01-09-at-18.25.41-4.jpg,1757124085161,ccc0e07ad1b7a22d8482c23c5abe495745558794f15b00de105ff0403dbe6d70
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_17_WhatsApp-Image-2025-01-09-at-18.25.41-7.jpg,1757124085163,a32889044e860f04da8aeb99a1149a1529215ac51fe3330613c80e1a21c092b6
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_19_WhatsApp-Image-2025-01-09-at-18.25.41-8.jpg,1757124085165,6a11bebc757c249defbe8ce4fdf652c44213ba9e57e708431cc3e9fa1adb278b
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_18_WhatsApp-Image-2025-01-09-at-18.25.41-6.jpg,1757124085164,92e6319911428af08c907eac985fc2b8f63262f34d5da6077bc439ef1587b0e3
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_21_WhatsApp-Image-2025-01-09-at-18.25.41-10.jpg,1757124085166,c312b869e3c66ea2cb85d0dc3a5e8de890984c59bce7173bba24c6cdbeead770
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_20_WhatsApp-Image-2025-01-09-at-18.25.41-9.jpg,1757124085165,44343097b6c69bce901bc9b6434104e660ae578eadb3d6ad10cd41926c210eab
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_22_WhatsApp-Image-2025-01-09-at-18.25.41-11.jpg,1757124085167,3623d15bf53d3205957bec833b09d7f734b92b26c0f957ebaad5e1ab016a348f
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_41_IMG_7455-scaled.jpg,1757124563686,27d60607abf5061ab27abbdd9e89a80e9158098a1597d3c1f9d51474c5ad6efb
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_37_IMG_7464-scaled.jpg,1757124563680,cd9ee7c92c23f98b5b76c0448556cd3bd8e21910ecb09152ce95d646733b4659
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_44_IMG_7444-scaled.jpg,1757124563689,8a1d0a7f6f69eedee5909f1286227140b2b81f231104830c628a02dc571bf808
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_46_IMG_7441-scaled.jpg,1757124563693,98a201d16699cde869b0baf643c5ba9df5d98b3dee2ef1081aa48b1825ccc33c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_23_WhatsApp-Image-2025-01-09-at-18.25.41.jpg,1757124085167,2b94d046c8dd2bda1340fd85116e212e004ce033685c8c6cc1d03f6939d0f78f
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_49_IMG_7430-1-scaled.jpg,1757124563696,e64c5dcfd16f001f8c127900512480174c31bddaa1a75f7ac4a8a0d2f4bdb230
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_15_WhatsApp-Image-2025-01-09-at-18.25.40.jpg,1757124085161,f316654bf2ecd58726077004ede4eeaaae9e57829ba133efedfd24eecd19e411
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_50_IMG_7421-1-scaled.jpg,1757124563699,1ae228b9deaebef06874ff8b5af880b4f483df3bc6a3aa10ea7ba0a182293c41
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_52_IMG_7418-scaled.jpg,1757124563701,6603fd9ac6706acfb95a231b22861269bb2c589142f180716a9fc7323f840f4e
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_55_IMG_7409-1-scaled.jpg,1757124563712,08beb3537b713736ae6b29e7cd71f65666ac4c366411d96fa5f3e2e4a5ad4378
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_24_WhatsApp-Image-2025-01-09-at-18.25.41-12.jpg,1757124085168,6baab6665d25f698247fa2274e680cfaa8dfc3d5725eb17a2278cdd3b6e78b2f
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_39_IMG_7458-scaled.jpg,1757124563682,2b98a036205ea0e760cbecbe60c4bcf32b9a31615e62946b1f4132661c8f9770
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_58_IMG_7389-scaled.jpg,1757124563715,3c0dae0a3f01c2b3df6a3254fd41517ef6385e920762c0139fc49631a69e4463
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_40_IMG_7456-scaled.jpg,1757124563684,6af9a0ef3844d06a2918333e921932447cf438c35ace6655422343f5c50b15aa
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_62_IMG_7376-scaled.jpg,1757124563722,fb11bda86a9a06bfc6e880a8b9463402b4ff9ad7a0552b2e2864126da6b256e9
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_25_WhatsApp-Image-2025-01-09-at-18.25.41-13.jpg,1757124085169,5b9da0a90feb16e900c1aed124611da3007cd892498873f8ae8204fb99b7756a
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_51_IMG_7420-scaled.jpg,1757124563700,6fc984e357cb6735fa877e175367bd597e658c5118f8199036aa4b2ac3adbf0b
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_26_WhatsApp-Image-2025-01-09-at-18.25.32.jpg,1757124085170,97d125fc5d0aa094f09d8d835badb108cdb6ee2607896b13e3c368d4cc63b786
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_27_WhatsApp-Image-2025-01-09-at-18.25.33.jpg,1757124085170,c572891f39f8dc2af84ee66227568df8fe115719c76e794cdffa47e527fc3413
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_38_IMG_7460-scaled.jpg,1757124563681,7fef6370c902d9ddb4de0a953ccb15697ea82f46643303278291fc93938fe664
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_53_IMG_7413-scaled.jpg,1757124563710,0382dca5cee257d24fa6f3d62db33a10a7b18f98ec9f9d7f3f89c6d216379315
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_60_IMG_7383-1-scaled.jpg,1757124563718,547c20367e355c521da6b4ad7e1583d15ddd2814196eb8bc28f6864f06209382
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_28_WhatsApp-Image-2025-01-09-at-18.25.38-1.jpg,1757124085171,1350ffce9c1ec1cbf578b20d4478c84c9c2b947cc1c35602f464d71dee8f9b2d
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_29_WhatsApp-Image-2025-01-09-at-18.25.35.jpg,1757124085172,34ebb07485658a18e743e9669e9f5c704dbf9e135cc8fa524d80eeba9bf3cfea
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_2_WhatsApp-Image-2025-01-09-at-18.25.39-5.jpg,1757124085172,414ff2ef2ef2dadb796629acf419794c568d33e54ff5e4a001f489ba858d7fb4
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_30_WhatsApp-Image-2025-01-09-at-18.25.38-2.jpg,1757124085173,2bc689ac7f2ecd9494d3c617dd5e9cd17b35d9487c2e641260989d5ff3821f2b
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_31_WhatsApp-Image-2025-01-09-at-18.25.38-3.jpg,1757124085174,c66838db0fd4321fbaaf1d3efb00adcb517c937ed7b264d57756ca22e3d65954
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_59_IMG_7386-scaled.jpg,1757124563716,46da5d0480894dcecf0588475368f2df25da29f5dd19dcc0310a74306dfbf8ef
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_56_IMG_7396-scaled.jpg,1757124563712,e696da869710911635f68b702825f894a8c12d0dabfb9fe1a56f8e2ef6702c65
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_3_WhatsApp-Image-2025-01-09-at-18.25.39-6.jpg,1757124085178,7d4f8f27d927f8ae94fccd1e3bf0eba831fbabb64e110d2c9e9d9fa86848a39e
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_57_IMG_7395-1-scaled.jpg,1757124563714,3487c003a4ab742a6dff914fc4426132e3c2766816de688fb174e9231063e4c5
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_4_WhatsApp-Image-2025-01-09-at-18.25.40-1.jpg,1757124085189,4f270505f552c1a089f71964b4f7b26f079c3b2ee1315f1358e9453072204826
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_63_IMG_7375-scaled.jpg,1757124563723,2430b0b134b1473d0bd6665581b38b2254b45ae4384f94c8271a66aeffa52046
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_54_IMG_7410-scaled.jpg,1757124563711,ef48075313c15f3f69d63dd75a9802a81a37258296f5e46e4e7b664a764142a6
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_64_IMG_7373-scaled.jpg,1757124563724,c466f14379ddf8d7c033642b8a80b9072cc5da1c8d3906b676c485d22c9c9a1b
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_66_IMG_7368-1-scaled.jpg,1757124563727,7f5a6fc579f56dadc1f6015f4dc5b294c1d272e863009f5f7d325def0f72498c
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_61_IMG_7380-1-scaled.jpg,1757124563720,9de561a51ee72ff1ae9c3bd62f0451cd48b1c0541a80dabb9ebe1bf4fd8c4eba
+assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_65_IMG_7371-scaled.jpg,1757124563726,4594b328d8d48fb8fc77daebf63185555afbc18b11c5bc5d3cce5207099e04bd
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_5_WhatsApp-Image-2025-01-09-at-18.25.40-2.jpg,1757124085201,94448b490600835f8ef1281442d0373782813d3fed6140c6dbc22e9d0ceb92e6
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_7_WhatsApp-Image-2025-01-09-at-18.25.40-7.jpg,1757124085214,688b90dec73b75f3d161da7281d0db8abb2eb746abab6083d2c3309a46807983
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.25.40-4.jpg,1757124085213,16f165dd1f0bf47f42889d90edaec640d69cf650354fbd17199bdf49535b2f7c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_9_WhatsApp-Image-2025-01-09-at-18.25.40-6.jpg,1757124085216,dc686fd07529a48857a016e00921b376c5418c7beecbe3a51dca3627fbdc83ac
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_11_IMG_7071.jpg,1757123945166,d5f5bf8c88be9c2855b09860b86479910869bbf7f300e010091bdc6b96f590c0
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_8_WhatsApp-Image-2025-01-09-at-18.25.40-3.jpg,1757124085215,a8336e8444a89b6a1fc48d614784d773a04630f1ff268d5a04d4b2b2523779c1
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_10_IMG_7067.jpg,1757123945164,f0b7ae1ccbed0032174aae144381790a5cd48b2ee14efa649bbfd2b974702127
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_18_GhNCDA-logo-768x589.jpg,1757123945173,5615df0483ad78388ccc563c205d88219d97c179f9558b32546e1da29359dcd0
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_12_IMG_7073.jpg,1757123945168,f7e321e860c602532e464c1f7301b2965ae576fa5b45ccfd758975a455d07277
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_52_WhatsApp-Image-2025-01-09-at-18.25.41-7.jpg,1757124085192,a79d95d186766c438c65924f901b23985cf9bd5af8a87518926383ca1d60e0fe
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_42_WhatsApp-Image-2025-01-09-at-18.25.40-7.jpg,1757124085181,b3898c95d8eb8e583bc7f3810b719c8fcef1c37faf52840ee493cc8695e9b8cc
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_47_WhatsApp-Image-2025-01-09-at-18.25.41-2.jpg,1757124085187,d18af4fde106305af7d3f26eb035265ed388799d2b41678ab1a040c87bda0578
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_13_IMG_7077.jpg,1757123945170,9a44d2cc9d3507cad9c05b62c03c01a5881eeb654cc87e91e6ce0c6697051125
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_48_WhatsApp-Image-2025-01-09-at-18.25.41-3.jpg,1757124085187,4bfbde00d127669b2fe599428f32b66f82315f76c864705af601d2142f0192b4
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_14_IMG_7081.jpg,1757123945172,50a406bde44c610e0a7552f0e187618f41fcccfc0fe810f3f48280db8344cbc6
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_51_WhatsApp-Image-2025-01-09-at-18.25.41-5.jpg,1757124085191,363fa4562a2b8d8097149ab901a50310fdd962dbb59aa672f9b0fda54625999e
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_54_WhatsApp-Image-2025-01-09-at-18.25.41-8.jpg,1757124085194,303ad30be7ce3c64fee91c68efd29bd8fe8352158b3a420945ba85d58a4bb849
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_49_WhatsApp-Image-2025-01-09-at-18.25.41-4.jpg,1757124085189,b2dd40ec1c7599940fd80b03efa256946bf376e9a803ce2014fceab15ed71030
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_44_WhatsApp-Image-2025-01-09-at-18.25.40-6.jpg,1757124085184,ff7143bedc386fb7d2c4373a648c38db435135655c0732a33b300c56e5158c3a
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_45_WhatsApp-Image-2025-01-09-at-18.25.40-5.jpg,1757124085185,bfe47e05133e506f3613cc2367f2e72411c24048f1860a8313994dc0bb48a56a
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_46_WhatsApp-Image-2025-01-09-at-18.25.41-1.jpg,1757124085186,f510c1d787177c1cd7b86722d7230adcebcf30365d0944c0a6e0a19acb05bb64
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_56_WhatsApp-Image-2025-01-09-at-18.25.41-10.jpg,1757124085196,385d1718a4319208f7171d43f6f9f8b33e97168710d14c1253dc046ca64a4f22
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_53_WhatsApp-Image-2025-01-09-at-18.25.41-6.jpg,1757124085193,58694927f646b6cebd3200a668905f8e1ff068790cb847e71383fe4d0de6bd21
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_3_IMG_7040.jpg,1757123945200,d3528c5e29a5e3e098630816396ed555b9f1eacd49c4f5cecd6d7572c2eee091
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_57_WhatsApp-Image-2025-01-09-at-18.25.41-11.jpg,1757124085197,9142b27ed1cd58c708cb22816b94c7fe57e11017328ef172b560bddacdb7ff43
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_58_WhatsApp-Image-2025-01-09-at-18.25.41.jpg,1757124085198,fe6b1f86070b66e5a6407b98003746113e91aa79cf154ee10d838d2073f57996
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_5_IMG_7028.jpg,1757123945203,bb3be9c52470f0c0ac3bb0d082cceea9bd84ec087d3b1dff5aee66e7b77dc8f3
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_2_IMG_7034.jpg,1757123945198,907cb8398ea35d783b2f52e1959e84d7ac4eaa1dfa3e9ee60f05f7c18ac331b6
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_7_IMG_7052_(1).jpg,1757123945205,6cc165a60b45830ed65420b830eef3d1639910de694febfa4c479805168c893b
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_4_IMG_7033.jpg,1757123945201,f15114a41a570b21a2c8e4792b6f013bc28228e13b0f7c8a8873ea4ed2ffbc33
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_6_IMG_7030_(1).jpg,1757123945204,924f322f4bcc17a0c1d67686042cd95977a2cebcb1479783aa71ca83df8f73ef
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_41_WhatsApp-Image-2025-01-09-at-18.25.40-4.jpg,1757124085180,47491a1ac32aa1c4194689c4da9644c10f3bf0c80b885d3b4579f4ec6bfa55a5
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_8_IMG_7058.jpg,1757123945207,7c0b392eab897e2d7b5c74217515013ba3eaf8df0671cdbbb8c7a5c7c8903e49
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_55_WhatsApp-Image-2025-01-09-at-18.25.41-9.jpg,1757124085195,765fae0065de10fbe103ce9cd9805b206b92026ac98df904e519fa508f3eb6ba
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_14_WhatsApp-Image-2025-01-09-at-18.10.29-2.jpg,1757124327754,6bce88d6ebe3b66aa154eac9756cabb18777e11ceabc5f8d761cb24a4105d1f8
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_9_IMG_7043.jpg,1757123945208,43a37df3b31ffbe60616535f33f9f8372031747b117cb26f716f90111e5b3d04
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_10_WhatsApp-Image-2025-01-09-at-18.10.30-3.jpg,1757124327749,5acd45f7d1ddc295a4ba0a56b90972f2240162287394d8fd099766ff12ac6a9e
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_11_WhatsApp-Image-2025-01-09-at-18.10.30-1.jpg,1757124327751,e9e7ff84612276ff70762e5041dbf032467adf96a665a974a18670a738e41465
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_12_WhatsApp-Image-2025-01-09-at-18.10.30.jpg,1757124327752,64d9dd400a2b998c5eaf56dfa556d191dcc54fc4e73951ed93d37d6857a3cc1f
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_13_WhatsApp-Image-2025-01-09-at-18.10.29-4.jpg,1757124327753,45ffa849649f68dce2b09ebb2d09818d4f6ed8c40009179bd65559e0ebfbd484
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_23_GhNCDA-logo-768x589.jpg,1757124327764,5615df0483ad78388ccc563c205d88219d97c179f9558b32546e1da29359dcd0
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_59_WhatsApp-Image-2025-01-09-at-18.25.41-12.jpg,1757124085199,0f0257bc28acf0f52021694b652d751a342de2f6fc2c3b1508946966c08d24c5
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_15_WhatsApp-Image-2025-01-09-at-18.10.29-3.jpg,1757124327755,0ec530395b92092a4804a753430a598a207a4184104b55157dc6f761177ed109
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_16_WhatsApp-Image-2025-01-09-at-18.10.29-1.jpg,1757124327757,d07d4ee9735c7b59afb046b632f311de970570bbb7bd86e6cc585727704721a7
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_50_WhatsApp-Image-2025-01-09-at-18.25.40.jpg,1757124085190,7574120fb44ebe91311c6c2a5caaa16852b8c089743c79be18f084b20b8a80d9
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_17_WhatsApp-Image-2025-01-09-at-18.10.29.jpg,1757124327758,09011ab8b331bf53505f171aa6be6357aeb9a043cd5bf216d160ac0f07e48db3
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg,1757124327763,88e0680dbdae964ebcfada10d69af666fc96a15f7b9bc147e1083385d58bccaa
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_37_WhatsApp-Image-2025-01-09-at-18.25.39-5.jpg,1757124085175,46612581846af3b7b5369b58ae6dc1fb3905f2a7acae9975afead0f7c2e43a1c
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_39_WhatsApp-Image-2025-01-09-at-18.25.40-1.jpg,1757124085177,3e064c940ab95d0f35184459c33d16c962762ee3d0316fcf0c8da1c4e5a932f8
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_60_WhatsApp-Image-2025-01-09-at-18.25.41-13.jpg,1757124085202,ee0e9b1746b52f0014a297c849695dd66d04556000f199f5c720798b57d9c1ec
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_40_WhatsApp-Image-2025-01-09-at-18.25.40-2.jpg,1757124085179,38ea3d654f80b255f5b4be167fd404014c41508dacacfa8b665ef51815c235ba
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_61_WhatsApp-Image-2025-01-09-at-18.25.32.jpg,1757124085204,e56fa262672291c41cde297e40b333c8f5b4d1e7f0a0e78d9a1d3f6a137ebf3d
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_38_WhatsApp-Image-2025-01-09-at-18.25.39-6.jpg,1757124085176,ac1f9a07b827489f2d06f8cde4e1e9d1ad0ef58af6bf6fdf7b492a7526d9e27a
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_18_IMG_7023.jpg,1757124327760,a73cd4205e606a3da1a8e7fdfcb2eb58449adb7d4a3a61c3fa7fff6c8ab2483a
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_19_IMG_7017.jpg,1757124327761,13d1856b4ca8ce31d1b71d98f361eda3931b8b5281a2d28c6793b6255a474dcf
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_43_WhatsApp-Image-2025-01-09-at-18.25.40-3.jpg,1757124085183,19f9d63f01f02c8765ef940c1187cdaaee94189e6110af831a836db77e7835b5
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_2_WhatsApp-Image-2025-01-09-at-18.10.30-10.jpg,1757124327779,d5f939c58a26701832d83201ece80bf239e8d901fde7cbe6a157bb7db3ce109c
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_26_IMG_7071.jpg,1757123945190,03e9afd3dc32e2f80803880668922ba6a2b4e752ba860dee4539e4f152e3440e
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_20_IMG_7040.jpg,1757123945177,718eb6dcd2c4341c33eaee44c17b13df4e73cfa67edb3b42a8142d0c2b1262ba
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_65_WhatsApp-Image-2025-01-09-at-18.25.38-2.jpg,1757124085210,7d2b5b01e8614d75d040152e35383d52f5793a6f87227299074c62b409b81e08
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_22_IMG_7028.jpg,1757123945181,606c53ee7ba425575739070568b2414dd9bc4658ad80b45c8b776c04e410e214
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_23_IMG_7058.jpg,1757123945183,4f0e9a4e9ee6ff059eed6d1a4091618c09014b12055c570f9c5b43f7a78b9fe9
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_62_WhatsApp-Image-2025-01-09-at-18.25.33.jpg,1757124085205,7217dee8fb812c66cf4f67659e8b25efa11d955c5be3ecbd0d6da2ae0f5cc9ac
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_63_WhatsApp-Image-2025-01-09-at-18.25.38-1.jpg,1757124085207,f67c6f963acf93ec9511fdb0b0a403b805a1d6afd89fb42d7ab0af8366882494
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_19_IMG_7034.jpg,1757123945175,6352cd63e791e7205fa46f393d0748cf4283bc51d016539f74886aa47a13e1fc
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_3_WhatsApp-Image-2025-01-09-at-18.10.30-6.jpg,1757124327801,f287518e3498170e1ff3acc9be29f514fa284cda7c68f0b33db1320885cf8ede
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.10.30-9.jpg,1757124327809,b7b3b77a6930577cecd5bdbb56f7787364a2c6ea6ee9f4d0ad87ffc40e3f8bdd
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_7_WhatsApp-Image-2025-01-09-at-18.10.30-4.jpg,1757124327810,d94405847d82848f53a0bfb2fb80cde3b515703efa5c41e4828790698901a68b
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_25_IMG_7067.jpg,1757123945187,8c857f7bd8dda1fa68e5ee36edb56d45cfc3cae9d811c84df2e1fb41b813bde9
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_4_WhatsApp-Image-2025-01-09-at-18.10.30-7.jpg,1757124327807,34142d7d093b6418971de2c988cdca2872d37d163947c8eedd5cbbc8bd6b2227
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_24_IMG_7043.jpg,1757123945185,9734d12e2b3d73ce8fd94dcd2671028c6b5ea80bbf67f74c03fbb380417427a2
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_21_IMG_7033.jpg,1757123945179,a3b6912135e4c805170f55cd333c099af63dca3895df9c0a5830284511bef8c6
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_64_WhatsApp-Image-2025-01-09-at-18.25.35.jpg,1757124085209,b20f639ba6705d7d93cadcc11014f4b07e196a40f23e03ca21dba3e88847aad5
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_5_WhatsApp-Image-2025-01-09-at-18.10.30-8.jpg,1757124327808,1510dff3cfb678ffbc61467ff74d3f2f7dea2faa5b604536c40d3b060395420b
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_8_WhatsApp-Image-2025-01-09-at-18.10.30-5.jpg,1757124327811,40cc1c291f8e028062b4c2f6fb30fc531f3bda76cfab4b6252889b374a99607d
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_27_IMG_7073.jpg,1757123945192,9f1a5f033340962f351b78b0afa397af5a003f04279b7e993b95447431cc299d
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_9_WhatsApp-Image-2025-01-09-at-18.10.30-2.jpg,1757124327814,406b8c18e8e6f86d60a75970825e42fd2c8c787f04730fbf84e21eb908fd6418
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_13_IMG_6826.jpg,1757124394207,15394d404cf6696df19014455c6cd32b8768cb06ef1b995aa3e963c8c8e7e468
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_10_IMG_6796.jpg,1757124394196,cb457a12e51c2389a6a05b9a65f9ed19859754fe66acc120a361b399442414a2
+assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_66_WhatsApp-Image-2025-01-09-at-18.25.38-3.jpg,1757124085212,31dd314b16c799ec92fd1cc6233185761a816acc1e4918f148919e771f1f7d8b
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_11_IMG_6792.jpg,1757124394205,3687bf10d466780c2357e6170365f106de3dd3b3fe3481719d0a6e4d807eae8a
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_17_IMG_6949.jpg,1757124394210,c268a1dec3a41e42bbe691ddda145fb344da89c5a65667e3471b7f6b21d8514d
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_12_IMG_6821.jpg,1757124394206,255152d80b6cccd71c4f615a32e0250282f3da8d343a001fc8c047aef8b2b640
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_18_IMG_6951_(1).jpg,1757124394211,2e05b742399adcf6b856d0d6c79b207e352b023bb584f73808fa587b9478e49a
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_14_IMG_6846.jpg,1757124394208,80c2457740bd464f603b15673d75123dd086779c9c1521c0961c1ba8803fadd9
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_16_IMG_6879.jpg,1757124394210,ebef0713f5f7c9648e056b32a6e3f7662d9383a25ec901758ca970b576dcf42f
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_19_IMG_6980.jpg,1757124394212,0cd1a25b3d0e81c9d2fc3a82e43f2aa7165b6ed8f6cb0d25bfe363561a72828c
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_15_IMG_6849.jpg,1757124394209,c291c1b17d4682ad86ac6f27fa6b0e2a6cac1a94c7c24a93688ace5ca09d8ada
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_24_GhNCDA-logo-768x589.jpg,1757124394213,5615df0483ad78388ccc563c205d88219d97c179f9558b32546e1da29359dcd0
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg,1757124394212,88e0680dbdae964ebcfada10d69af666fc96a15f7b9bc147e1083385d58bccaa
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_29_WhatsApp-Image-2025-01-09-at-18.10.30-4.jpg,1757124327776,7ab875602c101ca4d35c722157c6c703fc6f942de77aa739e869cdd87ae31555
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_2_IMG_7007.jpg,1757124394219,c98af9ecb1c62f649b09d1cf44aed54497ca7d52ba56aaf8ded04af542744603
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_28_IMG_7077.jpg,1757123945195,642f91fe57ffd2e3fa2046cd9b108d4f591af81073c717587c58de8e562d61c0
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_25_WhatsApp-Image-2025-01-09-at-18.10.30-6.jpg,1757124327768,4a67ce5a7f991e954b334b0d69a5a78642342f84d742dfc192998ca5f62a8249
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_24_WhatsApp-Image-2025-01-09-at-18.10.30-10.jpg,1757124327767,53eb193081e1381adf209cf37dae8c7d4d9a8ee66ba81ce2efea68109f4aeb00
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_11_IMG_7912.jpg,1757124647546,dd207fe7dd5c872c4c3f2b5c73d6c98dffa2cd1cb761dd4a1eafddb72d5eebbc
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_4_IMG_6774.jpg,1757124394234,1292d42c9ecdb4357ebfdfe962da7766c9676c16eb992121676ede91c1e70aa7
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_7_IMG_6781.jpg,1757124394236,5c4259fde5dbd1c4fe38821df78db477a2ffd3ed7fc24f1a0615032cff6bdb4b
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_3_IMG_6764.jpg,1757124394232,6d2b2df5e0e9f10c7aacbb11e5263b9d417bca7d1d44e12456b292a35d8cbe64
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_8_IMG_6783.jpg,1757124394236,0e6b2e5c0cca391acaa4b5bbdbc6406b9426dfc0b948d3808c6a6a4f478feab2
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_10_IMG_7909.jpg,1757124647545,a006b856bd1ad45ed673d57d2f016cf306fdb74ac4d52a6850fdcc20eff829ff
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_12_IMG_7914.jpg,1757124647546,d77b6d40fb93995f64c1aed0b1ef706aa1d2e6a61566833a0052fb8fe8457600
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_5_IMG_6775.jpg,1757124394235,f241fcaf18c923335b01678ddf1341b8863895aa20aca17031cfce7b1e7b767a
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_26_WhatsApp-Image-2025-01-09-at-18.10.30-7.jpg,1757124327770,62727123d92c6d1926ecc44cab32e19e926ca352eb0f6f40cdce5a3dd286a3be
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_6_IMG_6765.jpg,1757124394235,daf4532da7086b3e1b2ca2aa07615efb36709d7e2534f4823e0e260284952271
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_27_WhatsApp-Image-2025-01-09-at-18.10.30-8.jpg,1757124327773,0e00f6a988de8ec1473c3cf719f5d1ba29ae07b8aa77c0fef9a2ae4a492f57bd
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_28_WhatsApp-Image-2025-01-09-at-18.10.30-9.jpg,1757124327774,4fe5aa10b255b68a172290df5ea26c42b39a11048f15f568d2db830868ebd28b
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_13_IMG_7902.jpg,1757124647547,58eea32499fd47dc9479ba5b9d88d9a09be60dafb79f8fdefc50333e33b455e8
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_9_IMG_6810.jpg,1757124394237,a149a5cd476eab7364483de15446f2a31784386c0eaaeecb791cc24bc93bc3d6
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_14_IMG_7915.jpg,1757124647548,ae75d0b68e35a76b72d605c95009cbc6ef4865a9faf9dc884741c91c8fdb5d6f
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_15_IMG_7916.jpg,1757124647549,0dc3622b3dc2b3dcb8042f3c216ed6959e525198ae621d355124993e815dfc73
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_31_WhatsApp-Image-2025-01-09-at-18.10.30-2.jpg,1757124327783,433475a97c1e22504bcc9b471dfbc07bd40654472515b115b99bc694da0abfa4
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_16_IMG_7923.jpg,1757124647549,145d3e5e57302e834376de59d5d47f0ae012df4c663319b7aacaf3c6923c7ccd
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_32_WhatsApp-Image-2025-01-09-at-18.10.30-3.jpg,1757124327784,a153ff4445b232a82340464c3be9df9de7ad82b637336266ff5ea1b701cb6e8b
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_30_WhatsApp-Image-2025-01-09-at-18.10.30-5.jpg,1757124327781,5a380fc2fcf2935c642233a513d9d051d0456944e17778a45a5d5efa6cdc4830
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_33_WhatsApp-Image-2025-01-09-at-18.10.30-1.jpg,1757124327786,3a420966748bfaf1df9ffb8ad3806ddce82633f90ba8e0507ae75b0560fde9f2
+assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_29_IMG_7081.jpg,1757123945197,0608109c33cc3f04589a80e97f93bb431be1e726c50f6a49a52b6374b0bcb2ae
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_36_WhatsApp-Image-2025-01-09-at-18.10.29-2.jpg,1757124327791,25b490820a7573f98194dda35e4ac5c1e29e228461ee755354038eba283b788b
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_35_WhatsApp-Image-2025-01-09-at-18.10.29-4.jpg,1757124327790,1f61c2874226a9b04691d02827d539b9681aff98f7c4cac1e4365c1c3aefc53c
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_17_IMG_7920.jpg,1757124647550,45da5eaa7fd93683982a041b84216b67987b1807b3455715468b0b02ae1001c8
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_38_WhatsApp-Image-2025-01-09-at-18.10.29-1.jpg,1757124327796,9840d192388e258a94ccc5afa03a2288d42bc28fc2e8ac0bbfb975ef44910922
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_39_WhatsApp-Image-2025-01-09-at-18.10.29.jpg,1757124327800,1af297541e9cb7ba21f434a66977c66c9e9a79fb768ae52b2007f0f45e9e4651
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_34_ajax_loader.png,1757124647561,6804c533c487148b7b3aaffe8d809dad8599767d5e7097fedb081a2575b22478
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_34_WhatsApp-Image-2025-01-09-at-18.10.30.jpg,1757124327788,dd11a9edd555faff9a676ef2a1b769f6001cb2043bb7d3a3e99f47e456b144e2
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_18_IMG_7930.jpg,1757124647551,0ce3a5d9a832f6167488d01e10b18d2fc68db1c95b01bffd2a8c0c191cafa286
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_19_IMG_7932.jpg,1757124647552,07038e1b254d965f6f0afcde10705fa63bec0f643f29a63916212d9566207300
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_20_IMG_7935.jpg,1757124647553,e957934f6ed3b0d9580a688655ae572df251795d15ecc1c89b40b5c7efff8b5f
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_37_WhatsApp-Image-2025-01-09-at-18.10.29-3.jpg,1757124327794,2f5713a587f983e7105ad2c3f0b492bd28acb847646e3195d64be244eb1af2f8
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_21_IMG_7941.jpg,1757124647553,620bbc669da288f59d888045a11548c7a839ceb399e2c7d7256dd6b92816b46d
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_22_IMG_7926.jpg,1757124647554,9a45ffca75d6d9b33fb1ba46372121ecc41a1b497d5a77ff939c75ec0f74acd0
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_35_GhNCDA-logo-300x230.jpg,1757124647562,37cb17c897f15b4c1b6d9ff977e7e647aa1ef9eeda54a16635815dbff8cf9811
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_23_IMG_7946.jpg,1757124647555,e337fbf3e28d2e17a2f251fdbb60c4f4dd30204a1a6180b8a3c15979a1f42dee
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_24_IMG_7947.jpg,1757124647556,d69c9007ab43ff0f83801471e174246975289929234bb343828f15d7d7011f85
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_25_IMG_7936.jpg,1757124647556,794199a6201cd5f4a2ad03e7b9bdb46d8a7819ee9740d38e0598db919ba27ed4
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_26_IMG_7961.jpg,1757124647557,0c263a7d0924e5e884e36d19f10c66cdc40844cd824258aeaffb4343af754585
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_29_IMG_7950.jpg,1757124647559,0a148b1ee613db02dd31a2c21157d92da51004dfcad5ba98d88617581a3b9836
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_2_IMG_7875.jpg,1757124647559,6e2b0d2f252587a958de41ff050a6ba35bbbdb3451eaf2ca3a274eebe06d48f6
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_30_IMG_7971.jpg,1757124647560,0571bc0576b0bc918f4ec9b2adc3ff6228409424df48a92bdecf553a2bd197ae
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_31_IMG_7948.jpg,1757124647560,bbc168c37bb138e709562578120d57d07ea3dcca9c95bb30b61f3446d8f64866
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_27_IMG_7956.jpg,1757124647557,ddbebb457a2bc2b698d8615503e562a08582d0bd23ce8c06cdb546df85c2b7ee
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_28_IMG_7969.jpg,1757124647558,ffb824ff0de4068b20646ddc270744cae243cec68c01c859b8cae56e2fc007ac
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_3_IMG_7887.jpg,1757124647567,eacd027e633aac490399ff6bdbd6a0762403e4150c8a478f5509c3e8b6d33b42
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_31_IMG_6783.jpg,1757124394223,5f2ef2d513e90374355edb642b806216f0cf3f949eb731314df0478727bf6f18
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_36_GhNCDA-logo-768x589.jpg,1757124647563,5615df0483ad78388ccc563c205d88219d97c179f9558b32546e1da29359dcd0
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_27_IMG_6774.jpg,1757124394216,e1067efb931769aaefd07a6f9f39b4b0162f1ff7b7c567d7d9d03359514d6285
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_40_IMG_7023.jpg,1757124327803,1d4ed9bb2feecf348d1832549ec8cc27da3261f64de485e95f7aeec46a2d39cb
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_4_IMG_7894.jpg,1757124647588,23d5410abf0095b5606b55fb130ac11ca0187d9e232b8d4e7cbdc38ea1cd56cb
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_25_IMG_7007.jpg,1757124394214,52137727be8b4fa8d758d4ddc5f64b01bb6c13b59a7c4e96bf01c152bdc01f43
+assets/img/partners/WhatsApp-Image-2025-01-07-at-10.57.49_7f75399c-150x150.jpg,1756220577057,47469b9fb97106de18f0e914ceaa59aab6e3c0f895354eac5a81b0b20fc328ff
+assets/img/partners/WhatsApp-Image-2025-01-07-at-10.58.51_81174722-150x150.jpg,1756220577058,e50aad70069be42de64f19a97bdfe5c43fe5c40933094c15d6535cf53b42387a
+assets/img/partners/imgi_11_Partners-7-150x150.png,1756220577059,3faa7ea334c6b33b026986797d733c9a05a000fb31d46eee542bfcf00acf63cb
+assets/img/partners/imgi_12_Partners-12-150x150.png,1756220577060,90886ed2d60cb1ecbf9731c23471bd1f1ad30544f3f5e5eee268d71041a94cb2
+assets/img/partners/imgi_3_logosa-150x150.jpg,1756220577061,473697f89fe85a9df0f88313e4a5d5ed10b41ea8bbc54097817855655cd9d55a
+assets/js/main.js,1756224170589,27bcabc849dfd9292caedb64a4192e82858f3b356260afe7b61813c270e216f1
+assets/scss/Readme.txt,1726146354000,6781ec4b1699333c9d2f39b6072451f746f273aea731449eb3fd960d889d4a26
+assets/vendor/aos/aos.cjs.js,1726146354000,3cc5513fa45881f709fbc8ab600e68b9e66454a2c3aa1533467fd3e514ded7db
+assets/vendor/aos/aos.css,1726146354000,ef7b8de8a1f07efec9482f600be7377db0c7fa9d184a86d100291e541d0c9a17
+assets/vendor/aos/aos.esm.js,1726146354000,e4ad58b6e763f4ea4266994b9a245f9943c98e4ba5e54bd2cfbd00926273f796
+assets/vendor/aos/aos.js,1726146354000,984e880b56d6595be581c60301253afeb94340e8a8079e4259beddc7885da606
+assets/vendor/aos/aos.js.map,1726146354000,f1e7e075b3d4d0b18a32d126ba2ed122bf5d3971485310bd3d8773c08e614136
+assets/vendor/bootstrap/css/bootstrap-grid.css,1751122288000,08cbd824b99404a6cf6ee07e77f5e10901ed96e088454c63f92f811c71756610
+assets/vendor/bootstrap/css/bootstrap-grid.css.map,1751122288000,a6663d80f128d89aa6003999462d6a17a452a01ecf85a0528f32e68678fcd3d7
+assets/vendor/bootstrap/css/bootstrap-grid.min.css,1751122288000,5716ebb8a9870b90239375748491021fce0b3594ab3787dbab1efcf0f5d7fdb1
+assets/vendor/bootstrap/css/bootstrap-grid.min.css.map,1751122288000,b38d4fd178d0edb4982e66da193f7d85dc121cef6ed293a1a62fc614005a630f
+assets/vendor/bootstrap/css/bootstrap-grid.rtl.css,1751122288000,68d2d33de68f5e6413df4e6b2899ba8d1d346a9075ecfa3635223b2d2ca42092
+assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map,1751122288000,057e6a13fc6997542cad0440d37a09435f7ec328f7aaeb345b11b7dacd1598f1
+assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css,1751122288000,3ee31bc2df2d4977fd1abb824e98b633d2d740c9ec052f0c7a02480df0263e6a
+assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map,1751122288000,9dec5d7f6fc44ba3b21404ff1c343071a321dfd9d13d121bdd5767090502ab88
+assets/vendor/bootstrap/css/bootstrap-reboot.css,1751122288000,e90a652f362103d4491fadf677c6138ee8cca86b5e34ff0b894f8c335fe310a3
+assets/vendor/bootstrap/css/bootstrap-reboot.css.map,1751122288000,4af2303df3b067280e53b90938f9986515b0f9558e012dbb9f5484adf41eb94b
+assets/vendor/bootstrap/css/bootstrap-reboot.min.css,1751122288000,568d57ab6654ee7994e7358355794240595ec29ebc9ba0b3063cd0f66727140e
+assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map,1751122288000,b1cb668b310b85c0c83d9c31936d8c150943f18756069ffdc3f9000f717a693e
+assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css,1751122288000,623777507bf90c844404a6b0e1b6997c35dedb41ba7cdde7dd1e1a9d99d68286
+assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map,1751122288000,46c541447b79947fc29ce1bf51b15cb98ba66323f42a68b61e97a7481482a9c7
+assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css,1751122288000,af2de1a04ca72e39047cefbe076bec32863ea7aa149ee2c5c9924d64feb1746e
+assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map,1751122288000,facd93072529bdfc957a32637812ccd4593b5c0e52cf95ccb850e4ff79a95ae2
+assets/vendor/bootstrap/css/bootstrap-utilities.css,1751122288000,9b7f74697b02f0fbe806b6f6c973d29e756d3c306b23941bb60652baaf1dda2e
+assets/vendor/bootstrap/css/bootstrap-utilities.css.map,1751122288000,17f615980a0b97f105f568b872029987232d8b61cea205090d58e52aceb0a54b
+assets/vendor/bootstrap/css/bootstrap-utilities.min.css,1751122288000,746c626bbdd086d974337f6997e7833bc7e080c5e4399fddca0eee611fe7faff
+assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map,1751122288000,c4abdced61e34e87944bc6cdd21bbea1547c1c5ba1ce9ccab36ba356172d8d34
+assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css,1751122288000,5282b87ac3d94f02abe107e1b8bb0d5836af0ca0f118dc0f2e9ddb1a83f789af
+assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map,1751122288000,fd0df0daae1f046259cfdd113b54d2d8b82da4aff256dcc72af522cc6fc147ae
+assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css,1751122288000,b196e8f985ce423cc487d6ed6ce9a6f345beacecf67324b148338968805e6aeb
+assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map,1751122288000,22d28b2edc470d36a47c4d0b16912c6383b5b0f8f2716f1e2fee71302dfd95d2
+assets/vendor/bootstrap/css/bootstrap.css,1751122288000,bd9aaba53592b1c0ec3d8cd5544d449a931e59e0273a49664eaa7a24944b6c9f
+assets/vendor/bootstrap/css/bootstrap.css.map,1751122288000,67a3eebaf2321605a5963f7013bb550a5edae388ec51a53c868fda16c2bcacbb
+assets/vendor/bootstrap/css/bootstrap.min.css,1751122288000,cee888dbea98f4520d2409ffb929a2fc3d1f4e7fdd722c8fdbc040a4f8190f98
+assets/vendor/bootstrap/css/bootstrap.min.css.map,1751122288000,09257ca1dcf1aaec43e844ab1c9bc128d766f57d937d04ba6bdde61f73c39b31
+assets/vendor/bootstrap/css/bootstrap.rtl.css,1751122288000,8edae7eb15aca58ea3aed28897c427ad98df38faeada8d7ed5c6fe669d7ef03b
+assets/vendor/bootstrap/css/bootstrap.rtl.css.map,1751122288000,35b3c0524b2e8296e2adaab32d521c258b942bf8dd4a31bf37e5ca664b195fb6
+assets/vendor/bootstrap/css/bootstrap.rtl.min.css,1751122288000,48dcbebad6aae318ba356b93ac9111b508d27685ee55b9ce4603e343969afc4b
+assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map,1751122288000,505779add14c8a78550d7f1e7c8c9806bbda15abf8ae8dc35d4645d64d84be0e
+assets/vendor/bootstrap/js/bootstrap.bundle.js,1751122288000,9f20987bbe4c37ec500cbcf417105343a6f8cad0bc9f596ad54ecca08299c5ac
+assets/vendor/bootstrap/js/bootstrap.bundle.js.map,1751122288000,2360f9b7ef34875ae90750cdc3b612faa63fa45651a2db45ceda3d3d4f474ed3
+assets/vendor/bootstrap/js/bootstrap.bundle.min.js,1751122288000,9bb40b130783a54fd07d0ea695606642e3ab3823b51abecd79791203eda61573
+assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map,1751122288000,0f854d0c88e59ae28cdaaa83fe38928a20e6ae10676f00c93deb23f36a8f7e2c
+assets/vendor/bootstrap/js/bootstrap.esm.js,1751122288000,f2175c13166ef3ffb178e9045f1764677f563604949194a8f7c841af3b624db8
+assets/vendor/bootstrap/js/bootstrap.esm.js.map,1751122288000,e38f9b92b1d891de348245fce32ad77c7673bc09ee0e762d728812bdc3550647
+assets/vendor/bootstrap/js/bootstrap.esm.min.js,1751122288000,ba82a2090c46c44736f9a1f858d98babab036c86daf5b886996ae5ec5afbe9a2
+assets/vendor/bootstrap/js/bootstrap.esm.min.js.map,1751122288000,7a61f4896ad2746341a894c74e8f774f37026ca71e89d4108675c54650072f55
+assets/vendor/bootstrap/js/bootstrap.js,1751122288000,4ffc77da26ee893d9c5bf251d886ffd87b54e7ea0d590f1bd3bd1ce01c5dfd4a
+assets/vendor/bootstrap/js/bootstrap.js.map,1751122288000,1e735bf7e417951f3f3842d4f6e0f7acd675e909256987d6bf819ec7a75efcb9
+assets/vendor/bootstrap/js/bootstrap.min.js,1751122288000,8dfea67bae1199fbfbbed1b760e5059f8f3ac7057b85870ead3ebfdcf53449c0
+assets/vendor/bootstrap/js/bootstrap.min.js.map,1751122288000,ec931c42be518abe1f2881fe902910ed889e75f1a7f891f6b8b41777a9a1d6a8
+assets/vendor/bootstrap-icons/bootstrap-icons.css,1746880550000,ebc80582f70b50211ce3722dc5c7ddeba23be98ad063a403d289890727c58422
+assets/vendor/bootstrap-icons/bootstrap-icons.json,1746880550000,b4747094adfa9e77f12f93beea2a43a074a74110bdd68200d5ec4e5866029f69
+assets/vendor/bootstrap-icons/bootstrap-icons.min.css,1746880550000,9d4e7158295dfb9b6bb4c3f417da2929b90ee2386c65eafc8e6ef85fc213ed9b
+assets/vendor/bootstrap-icons/bootstrap-icons.scss,1746880550000,a234bbda59aa01b978cb7e3aeaaadc54d42aa16314598968dab6fb0ffefc27ea
+assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff,1746880550000,1a410775b44e813d08bcdb7a173fa5ae489cded9bd7c5d2ca2d6d10a8c002547
+assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2,1746880550000,ee5fb721f774a78a80c67ebca4d00fc646f7f62039652e5704b8b5552b910e3d
+assets/vendor/fontawesome-free/css/all.css,1753624636000,2dadb4b372f708bcaf89f336b484647042deabb9b70a6fb770aaa381a15cd855
+assets/vendor/fontawesome-free/css/all.min.css,1753624636000,fd06471860db6a81ea48181e0455f0e522f479373c3dbe01d8d7543a0db3a05b
+assets/vendor/fontawesome-free/css/brands.css,1753624636000,d0e9703ae68fdff177451cc702108959fe6a8a9ae6049cc063ae73bfa6215195
+assets/vendor/fontawesome-free/css/brands.min.css,1753624636000,d12605cda5ea6c95601eedc526e197a9d38af809811859704b176de6de2e3f18
+assets/vendor/fontawesome-free/css/fontawesome.css,1753624636000,e84d3f5114c66481591db0bd0036459a6b019a3e84569870a37ec6b402a57fc3
+assets/vendor/fontawesome-free/css/fontawesome.min.css,1753624636000,bee640533c27e6849c40232544f812018b0f8bcb8ca4a1dd3e84dbde20ff6b94
+assets/vendor/fontawesome-free/css/regular.css,1753624636000,2b7dace488119bd3e7c30052076c3608a6dcef088b61438a3f3de8b3304de382
+assets/vendor/fontawesome-free/css/regular.min.css,1753624636000,82d737cddc7305819da24c2bd4b4ae3e6b0c49289a65f0f2ecaf304b3194783f
+assets/vendor/fontawesome-free/css/solid.css,1753624636000,d560c9b0ca859054688dfde86a57cb199791edcc6dfabf5943f5190316545dd3
+assets/vendor/fontawesome-free/css/solid.min.css,1753624636000,fd8fe575a3b67bbfe08200a3dcca00714e465f0141d7fb921c17928750381690
+assets/vendor/fontawesome-free/css/svg-with-js.css,1753624636000,7e4422a67e39989d118e58edbdc3377e49c7789824f9521547952c0eeeb9c1ad
+assets/vendor/fontawesome-free/css/svg-with-js.min.css,1753624636000,5a3117177594f18da64ebe037008a9697e896c0c45a7faf366f36c7a7d024b7a
+assets/vendor/fontawesome-free/css/svg.css,1753624636000,98d28c6baf3ebb472129d70f1d862be22abb5b0a7cac42a86c2ce35802777526
+assets/vendor/fontawesome-free/css/svg.min.css,1753624636000,54326054b1432c35d7ffdb228e3d5f4836504956d44fb15a701018592c4d9bb3
+assets/vendor/fontawesome-free/css/v4-font-face.css,1753624636000,d9cf7f93f36717f2f5974a0544229f8f1ac0b556343d7e57835ed3e06377a7fe
+assets/vendor/fontawesome-free/css/v4-font-face.min.css,1753624636000,3545a08c3000d3670b81eab917429b2a83a2191ac8a7c04d5c904aaeb931e707
+assets/vendor/fontawesome-free/css/v4-shims.css,1753624636000,c43d41daa670fd446ae7ddc1d73b93582cf8c999e3f3dd67febcbd1020fd6356
+assets/vendor/fontawesome-free/css/v4-shims.min.css,1753624636000,3a5085d87242021b2e32336568d32c3b5638273eda4ec92cbb17e4e22cf35a11
+assets/vendor/fontawesome-free/css/v5-font-face.css,1753624636000,e22396a27ebcc8a30075614a4a072515bfb56001155f9655be3c595202f8013c
+assets/vendor/fontawesome-free/css/v5-font-face.min.css,1753624636000,3d7502174742eb4340a5561858ab908e3f36b9843adac0db742324c1ad32f281
+assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2,1753624636000,e0a33c204f7f3697e8469d5e6b2d562d1f73b66dd16a1d35446ac1e7c4606e31
+assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2,1753624636000,2452ddf61035209dd947d5f1555e1245705a2583b50d8ffb75b0a3c49dd3beda
+assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2,1753624636000,6e1a7837a11122b1034da408390ff7908c5fca80447369e40b2d26e3ede6c15d
+assets/vendor/fontawesome-free/webfonts/fa-v4compatibility.woff2,1753624636000,0ab74a656a9fc46489bd57782a2e3eef4f73d4b56c7b6c8ad995525ff1400d81
+assets/vendor/glightbox/css/glightbox.css,1726146354000,b53ef7f4dae98633e2a247b18a97d8243d2d6daf9bb5a02f626d5d6e1a65714f
+assets/vendor/glightbox/css/glightbox.min.css,1726146354000,68757a003755d187ee7404bb9f1501c844c0704b48a7384ed06c0a437be85fc4
+assets/vendor/glightbox/js/glightbox.js,1739014918000,b2ff699f8d54581ea0415b783082fc5ae173a52d708a34f777748ff06a0e891f
+assets/vendor/glightbox/js/glightbox.min.js,1739014918000,28ac1597eaaaa7caaaac5611de3213b8a099dabd404fae1bd1bb2db3df545bfb
+assets/vendor/php-email-form/validate.js,1753624636000,870c83b52ff0ab60d9a37ab270b51bcd7dbc5e864770ef5e4cfef211770a14e0
+assets/vendor/purecounter/purecounter_vanilla.js,1726146354000,1471f70f1b9b3c1cdab9c133a4c27acda06bd9555b903ce7c40a6821b87ee923
+assets/vendor/purecounter/purecounter_vanilla.js.map,1726146354000,aa3a21a7c10200d5eb3ed06f489235317778effb76ca3ef6afa6077b87e9161d
+assets/vendor/swiper/swiper-bundle.min.css,1753624636000,a0bc09f1162222e6c04b1d2e2b8d231beee19ef77579cc911205bc5d28231fd2
+assets/vendor/swiper/swiper-bundle.min.js,1753624636000,b570c8108c922b813b87163754fba3c5188dc06347842a63f684ceedfe26d81a
+assets/vendor/swiper/swiper-bundle.min.js.map,1753624636000,c7bbf8c259ca2ddc8f06965e3fb6527a87cc078348ef22a2fef7713437225f38
+forms/appointment.php,1726146354000,bd9b7226fe1ea71b117959fc9a70dd6c02a07d5956bd0f48c9fe5de96894e7bc
+forms/contact.php,1726146354000,c5ce91f403882c60cc443e64d76ccb916e9316a94c3378cc038d911f2d5dfb0c
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_41_IMG_6980.jpg,1757124394234,b53c9005937cc4c6c38d84d9dd772c8028a0c408a90de9d64271ab7ce22b107e
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_30_IMG_6781.jpg,1757124394220,1d142509408afb8fd19d57e7db7d228be650f6d7aa8d1cf5acae75edc3434716
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_28_IMG_6775.jpg,1757124394217,e611290b93f1d13721ff106f75aab3924b00a870791ce454637667c3d2daaace
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_36_IMG_6826.jpg,1757124394228,f69ad0568b671726f8ba71a21b296f832569d817cabdd6d7501a7888a55e56a6
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_26_IMG_6764.jpg,1757124394215,a2f0adb267eff99266a5ebf3a64e3ed8932f1663f110112a78935b1709b06ac1
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_40_IMG_6949.jpg,1757124394233,5ffdaa1bebfb1e3cdf7c318401fbf9e574882fdcb25a87705c1fd0e035683f6a
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_37_IMG_6846.jpg,1757124394229,f94c246b1f6dc895b4dc5729fb20d3c0fa2097635894826e28216b217542375a
+assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_41_IMG_7017.jpg,1757124327805,70a4863d9f3943e536c462ca59dad0ab893b45ef5d5684c9e41aa27c36582419
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_5_IMG_7874.jpg,1757124647603,c65ec69d143ccc90eda6e13aee07a0302a266d0ffdfd7ca43f40ac411288d5cd
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_32_IMG_6810.jpg,1757124394224,a449ec229a3a801e026d16d9c189f5d0f6c3239f6d69917c59941fc8f3eee5e3
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_34_IMG_6792.jpg,1757124394226,36723f143fc5dd2059be9342ea0f3803f8e85e5a75800d3c290c58d64b76ccbb
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_35_IMG_6821.jpg,1757124394227,ea600bf73725fb57a323f96a018642d07311f09abc85cc7768a05285bec1708b
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_33_IMG_6796.jpg,1757124394225,5d95d2b1f1485cc5c79c59895725bd29788d8ee3c8236dd334d5798873deb08e
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_6_IMG_7891.jpg,1757124647612,a0559e74bc6b97f35dd3922a3d5f1994281d86da1613217f041285ff1612c79b
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_39_IMG_7894.jpg,1757124647567,b6f55c5e55703299840a55c75f96dc535c9259de1e1bd32b1ddb27ae84126ccc
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_29_IMG_6765.jpg,1757124394219,e62fcc085aaa7f0b6153992797279392365ce22ed72fb9f195d1b37dc1343b26
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_7_IMG_7896.jpg,1757124647613,dedc38c43ab7adb970d99c20a17a7b4a1cd39b9a1096608c5ece55a1584c77fc
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_39_IMG_6879.jpg,1757124394231,15c9a5f41ccee32be54794ea46e52b7c98d4d72c89475c6caea03ccc32f205f9
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_8_IMG_7901.jpg,1757124647613,936bef3afc5d7cd8d19eefcbb7f26e91e5d3c92979ea7da00f90ef0315014581
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_9_IMG_7903.jpg,1757124647614,bd8bdf5327647ac65c14a746088cba466e47ee7a65f7fb029849559b2ae0e057
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_38_IMG_7887.jpg,1757124647565,f546d7cd2d0cef4cf7363384c78e86ffdfdce8999e0095bb201ede72602ca311
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_46_IMG_7912.jpg,1757124647583,263b38f4d144c3a01637e8bb2704bb2ee9fca13e90d43bff62b0a6b88b38c1aa
+assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_38_IMG_6849.jpg,1757124394230,32e2e48416aedf158f91974f12806ed395532f7880d422019da29de1460f7571
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_41_IMG_7891.jpg,1757124647571,7e6404d6e10497fbfd27050c1912bf204422f76d097ba237e8fc9df569ce5dca
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_44_IMG_7903.jpg,1757124647577,bf87c8506a50c10b4562e287df539f86ca4754a6361a3e21041cf6c98b904288
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_51_IMG_7923.jpg,1757124647590,69a0065a891a4bfbc84589b7f88641615ea1e4e7c7247bca9b16dcf5933e5cee
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_42_IMG_7896.jpg,1757124647573,8f01df236ee2a82518a9c01f1a65c69b8ad790dae2ff561f9f2f6d2145e3c194
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_43_IMG_7901.jpg,1757124647575,5eb1ffc8d61e53c28229981788e3de29067a7318072b2a13791e3f540a8a1580
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_50_IMG_7916.jpg,1757124647589,eb036125d4b8665d4b3fde51ada455c3dda9550b9a6fd89c9272225260c86003
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_53_IMG_7930.jpg,1757124647593,82cba9c191313adc1f8a710e1d0ce8ca4fa3d70f54018a95445e895137f59cb7
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_48_IMG_7902.jpg,1757124647586,ca80ce63539ab1c5d090c777014feddb69eebecfbea4e2e08e488d95c9fba2c7
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_45_IMG_7909.jpg,1757124647582,5f8353c7ff1e38d7e0a121111d7ed885ff09e2ec0cb5216dd24d66abbc3f4c57
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_37_IMG_7875.jpg,1757124647564,2e3d6c79aa2c5ad94d73606daa2cc3724a2ebe27d7eb6b14e6cb7dd867046d07
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_47_IMG_7914.jpg,1757124647585,4987bea1b7d6f2d3e4e8ba78cd45f399eceaf0fe82e12b54c7c239deac75c9f4
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_57_IMG_7926.jpg,1757124647600,6a36daea9abffa08bc8827ee121016f7db25fc4656b95f283dc3c7609eefc860
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_40_IMG_7874.jpg,1757124647569,cde3bc1efa27efb965b2ad5cb7deb2bb9edf47919db902d91f2e1bd39be9cb2f
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_59_IMG_7947.jpg,1757124647602,06f98cecf1284e4859d439750536d7148dd2d666bb9dab02624d152a22b1308d
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_49_IMG_7915.jpg,1757124647587,948c03f56c54a155caa518a92e250e222b30a9d2dc2d6aa88eac5bcc2fc62cb4
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_54_IMG_7932.jpg,1757124647595,179f021b6f4c98b04093aa07f32d573e7220c3c596bf185a7fc8257bb2745d30
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_60_IMG_7936.jpg,1757124647603,7a096e20213699efe0635bdfce2f181c3e8167d53909fd282fde61067250d913
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_58_IMG_7946.jpg,1757124647601,e926627674ea6cfb1e0fb1965557781d5165f928c39c20cb43c8be5c22212013
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_64_IMG_7950.jpg,1757124647610,a4e4cfb6ef8bb13c3cf21920ff7b74fc099c144754f2b93896d2fb22ae3b73ba
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_52_IMG_7920.jpg,1757124647592,bacabf74014967dbe9d790dfdd8de8284897b5c2c5a83d2b8fd1ff086afc0fca
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_65_IMG_7971.jpg,1757124647611,f085e335a3577880d377b7bc7e216902c6d9f1e7a301f2429d3df2178ee9d8aa
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_55_IMG_7935.jpg,1757124647596,b2aea5f8a625a4b4d5e07a2c4538227905573ac749c2b09ac61d5e69877019c8
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_56_IMG_7941.jpg,1757124647599,988e5768ee113513cf21c0453a536df409ff7e3f89cd18ea2296d671d09df146
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_63_IMG_7969.jpg,1757124647609,83840dc9b748258dc89cbd0ffd0ac17f4a48d61605757947f2d07feaf3f0112a
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_62_IMG_7956.jpg,1757124647607,d1585dc45b966c078ad604837589f9e2838efef3b96fe4c8bc7ab3662baed256
+assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_61_IMG_7961.jpg,1757124647605,03a9d84c4d08ce1038d7dbbae8354bab351740b3d56ba519d83170a10389c239

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "your-project-id",
+    "vastgh": "vast-gh"
+  },
+  "targets": {},
+  "etags": {}
+}
