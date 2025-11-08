@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Newsletter - VAST-Ghana</title>
+  <meta name="description" content="VAST-Ghana newsletters providing updates on our activities and initiatives">
+  <meta name="keywords" content="VAST-Ghana newsletter, health updates, tobacco control newsletter, sustainable development news">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html" class="active">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Newsletter</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Newsletter</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>VAST-Ghana Newsletter</h2>
+              <p>Stay updated with our quarterly newsletters</p>
+            </div>
+
+            <!-- Newsletter Archive -->
+            <div class="newsletter-archive">
+              <!-- Newsletter Item -->
+              <div class="newsletter-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="newsletter-thumbnail">
+                      <img src="assets/img/newsletter-cover.jpg" alt="Newsletter Cover" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="newsletter-meta">Q2 2024 • Volume 12, Issue 2</div>
+                    <h3 class="newsletter-title">VAST-Ghana Quarterly Newsletter</h3>
+                    <p class="newsletter-excerpt">In this issue: World No Tobacco Day 2024 activities, updates on the Tobacco Control Bill, and highlights from our recent advocacy campaigns.</p>
+                    <div class="newsletter-actions">
+                      <a href="#" class="btn-read"><i class="bi bi-book"></i> Read Online</a>
+                      <a href="#" class="btn-download"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Newsletter Item -->
+              <div class="newsletter-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="newsletter-thumbnail">
+                      <img src="assets/img/newsletter-cover.jpg" alt="Newsletter Cover" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="newsletter-meta">Q1 2024 • Volume 12, Issue 1</div>
+                    <h3 class="newsletter-title">VAST-Ghana Quarterly Newsletter</h3>
+                    <p class="newsletter-excerpt">In this issue: New research on tobacco taxation, alcohol policy developments, and our climate justice initiatives for 2024.</p>
+                    <div class="newsletter-actions">
+                      <a href="#" class="btn-read"><i class="bi bi-book"></i> Read Online</a>
+                      <a href="#" class="btn-download"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Newsletter Item -->
+              <div class="newsletter-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="newsletter-thumbnail">
+                      <img src="assets/img/newsletter-cover.jpg" alt="Newsletter Cover" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="newsletter-meta">Q4 2023 • Volume 11, Issue 4</div>
+                    <h3 class="newsletter-title">VAST-Ghana Quarterly Newsletter</h3>
+                    <p class="newsletter-excerpt">In this issue: Year-end review of our achievements, tobacco industry monitoring report, and plans for 2024.</p>
+                    <div class="newsletter-actions">
+                      <a href="#" class="btn-read"><i class="bi bi-book"></i> Read Online</a>
+                      <a href="#" class="btn-download"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Newsletter Item -->
+              <div class="newsletter-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="newsletter-thumbnail">
+                      <img src="assets/img/newsletter-cover.jpg" alt="Newsletter Cover" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="newsletter-meta">Q3 2023 • Volume 11, Issue 3</div>
+                    <h3 class="newsletter-title">VAST-Ghana Quarterly Newsletter</h3>
+                    <p class="newsletter-excerpt">In this issue: Road safety campaign results, updates on our alcohol control advocacy, and community engagement initiatives.</p>
+                    <div class="newsletter-actions">
+                      <a href="#" class="btn-read"><i class="bi bi-book"></i> Read Online</a>
+                      <a href="#" class="btn-download"><i class="bi bi-file-earmark-pdf"></i> Download PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+              <ul>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <!-- Subscribe Form -->
+              <div class="sidebar-item subscribe">
+                <h3 class="sidebar-title">Subscribe to Our Newsletter</h3>
+                <form action="">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="organization" class="form-label">Organization (Optional)</label>
+                    <input type="text" class="form-control" id="organization" placeholder="Your Organization">
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                </form>
+                <p class="mt-2 small">We respect your privacy. Your information will not be shared with third parties.</p>
+              </div>
+
+              <!-- Newsletter Archive by Year -->
+              <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Archive by Year</h3>
+                <ul>
+                  <li><a href="#">2024 <span>(2)</span></a></li>
+                  <li><a href="#">2023 <span>(4)</span></a></li>
+                  <li><a href="#">2022 <span>(4)</span></a></li>
+                  <li><a href="#">2021 <span>(4)</span></a></li>
+                  <li><a href="#">2020 <span>(4)</span></a></li>
+                </ul>
+              </div>
+
+              <!-- Special Issues -->
+              <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Special Issues</h3>
+                <div class="recent-post-item">
+                  <h4><a href="#">World No Tobacco Day Special Edition</a></h4>
+                  <time>May 2023</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="#">5th Anniversary Special Issue</a></h4>
+                  <time>January 2022</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="#">COVID-19 and Public Health</a></h4>
+                  <time>April 2020</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Newsletter Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+              <span>VAST-Ghana</span>
+            </a>
+            <p>Vision for Accelerated Sustainable Development, Ghana (VAST-Ghana) is dedicated to promoting sustainable health and development through evidence-informed advocacy.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Focus Areas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Focus Areas</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tobacco Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Alcohol Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Road Safety</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Climate Justice</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Health Promotion</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              No. 8 Abeeku Crescent <br>
+              Accra, Ghana<br><br>
+              <strong>Phone:</strong> +233 30 393 8058<br>
+              <strong>Email:</strong> info@vast-ghana.org<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>VAST-Ghana</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

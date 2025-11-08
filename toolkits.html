@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Toolkits - Vision for Accelerated Sustainable Development Ghana</title>
+  <meta name="description" content="Resources and toolkits for tobacco control, health promotion, and sustainable development advocacy">
+  <meta name="keywords" content="Vision for Accelerated Sustainable Development Ghana toolkits, tobacco control resources, health advocacy tools, sustainable development resources">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .toolkit-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .toolkit-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .toolkit-card .toolkit-image {
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .toolkit-card .toolkit-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .toolkit-card:hover .toolkit-image img {
+      transform: scale(1.05);
+    }
+    
+    .toolkit-card .toolkit-content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .toolkit-card .toolkit-category {
+      display: inline-block;
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    
+    .toolkit-card .toolkit-title {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .toolkit-card .toolkit-description {
+      margin-bottom: 20px;
+      color: #555;
+      flex-grow: 1;
+    }
+    
+    .toolkit-card .toolkit-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+      font-size: 14px;
+      color: #777;
+    }
+    
+    .toolkit-card .toolkit-date {
+      display: flex;
+      align-items: center;
+    }
+    
+    .toolkit-card .toolkit-date i {
+      margin-right: 5px;
+    }
+    
+    .toolkit-card .toolkit-format {
+      display: flex;
+      align-items: center;
+    }
+    
+    .toolkit-card .toolkit-format i {
+      margin-right: 5px;
+    }
+    
+    .toolkit-card .toolkit-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .toolkit-card .btn-download,
+    .toolkit-card .btn-view {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 15px;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .toolkit-card .btn-download {
+      background-color: var(--color-primary);
+    }
+    
+    .toolkit-card .btn-view {
+      background-color: #6c757d;
+    }
+    
+    .toolkit-card .btn-download:hover,
+    .toolkit-card .btn-view:hover {
+      opacity: 0.9;
+    }
+    
+    .toolkit-card .btn-download i,
+    .toolkit-card .btn-view i {
+      margin-right: 5px;
+    }
+    
+    .toolkit-filters {
+      margin-bottom: 30px;
+    }
+    
+    .toolkit-filters .filter-item {
+      display: inline-block;
+      padding: 8px 20px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 50px;
+      background-color: #f8f9fa;
+      color: #333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .toolkit-filters .filter-item.active,
+    .toolkit-filters .filter-item:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="Vision for Accelerated Sustainable Development Ghana Logo">
+          <h1 class="sitename">Vision for Accelerated Sustainable Development Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html" class="active">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Toolkits</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Toolkits</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Toolkits Section -->
+    <section id="toolkits" class="toolkits section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Advocacy & Educational Resources</h2>
+          <p>Practical tools and resources for tobacco control, health promotion, and sustainable development advocacy</p>
+        </div>
+
+        <!-- Toolkit Filters -->
+        <div class="toolkit-filters">
+          <div class="filter-item active" data-filter="*">All</div>
+          <div class="filter-item" data-filter=".tobacco">Tobacco Control</div>
+          <div class="filter-item" data-filter=".alcohol">Alcohol Control</div>
+          <div class="filter-item" data-filter=".road">Road Safety</div>
+          <div class="filter-item" data-filter=".climate">Climate Justice</div>
+          <div class="filter-item" data-filter=".health">Health Promotion</div>
+        </div>
+
+        <div class="row">
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item tobacco">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-1.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Tobacco Control</span>
+                <h3 class="toolkit-title">Tobacco Industry Monitoring Guide</h3>
+                <p class="toolkit-description">A comprehensive guide for monitoring and documenting tobacco industry activities, interference in public policy, and marketing strategies.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> March 2024
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-pdf"></i> PDF
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item health">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-2.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Health Promotion</span>
+                <h3 class="toolkit-title">Community Health Advocacy Toolkit</h3>
+                <p class="toolkit-description">Resources for community-based organizations to advocate for better health policies and services at the local level.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> January 2024
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-zip"></i> ZIP
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item tobacco">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-3.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Tobacco Control</span>
+                <h3 class="toolkit-title">Media Engagement Guide for Tobacco Control</h3>
+                <p class="toolkit-description">Strategies and resources for effectively engaging with media to promote tobacco control messages and counter industry narratives.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> November 2023
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-pdf"></i> PDF
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item alcohol">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-4.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Alcohol Control</span>
+                <h3 class="toolkit-title">Alcohol Policy Development Guide</h3>
+                <p class="toolkit-description">A step-by-step guide for developing evidence-based alcohol policies at national and local levels.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> October 2023
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-pdf"></i> PDF
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item road">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-5.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Road Safety</span>
+                <h3 class="toolkit-title">Road Safety Campaign Toolkit</h3>
+                <p class="toolkit-description">Resources for planning and implementing effective road safety campaigns in communities and schools.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> September 2023
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-zip"></i> ZIP
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toolkit Item -->
+          <div class="col-lg-4 col-md-6 toolkit-item climate">
+            <div class="toolkit-card">
+              <div class="toolkit-image">
+                <img src="assets/img/toolkit-6.jpg" alt="Toolkit Image">
+              </div>
+              <div class="toolkit-content">
+                <span class="toolkit-category">Climate Justice</span>
+                <h3 class="toolkit-title">Climate Justice Advocacy Toolkit</h3>
+                <p class="toolkit-description">Tools and strategies for advocating for climate justice and sustainable development in local communities.</p>
+                <div class="toolkit-meta">
+                  <div class="toolkit-date">
+                    <i class="bi bi-calendar"></i> August 2023
+                  </div>
+                  <div class="toolkit-format">
+                    <i class="bi bi-file-earmark-pdf"></i> PDF
+                  </div>
+                </div>
+                <div class="toolkit-actions">
+                  <a href="#" class="btn-download"><i class="bi bi-download"></i> Download</a>
+                  <a href="#" class="btn-view"><i class="bi bi-eye"></i> Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modern Pagination -->
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section><!-- End Toolkits Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Vision for Accelerated Sustainable Development Ghana</span>
+          </a>
+          <p class="pt-3">Vision for Accelerated Sustainable Development Ghana is a leading health advocacy organization dedicated to promoting evidence-based policies for tobacco control, alcohol harm reduction, and climate justice in Ghana and across Africa.</p>
+          <div class="footer-contact pt-3">
+            <p><strong>Address:</strong> Madina Firestone, Accra<br>
+            GPS: GM-017-3682</p>
+            <p class="mt-2"><strong>Phone:</strong> +233 30 393 8058</p>
+            <p><strong>Email:</strong> info@vastgh.org</p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/vastghana" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://web.facebook.com/vastghana" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/vastghana" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/vision-for-accelerated-sustainable-development-ghana" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@Vast_Ghana" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#services">Our Work</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="publication.html">Publications</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Our Focus Areas</h4>
+          <ul>
+            <li><a href="index.html#services">Tobacco Control Advocacy</a></li>
+            <li><a href="index.html#services">Alcohol Harm Reduction</a></li>
+            <li><a href="index.html#services">Climate Justice & Health</a></li>
+            <li><a href="index.html#services">Health Policy Research</a></li>
+            <li><a href="index.html#services">Community Engagement</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="publication.html">Research Publications</a></li>
+            <li><a href="#">Policy Briefs</a></li>
+            <li><a href="news.html">News & Updates</a></li>
+            <li><a href="#">Annual Reports</a></li>
+            <li><a href="index.html#media-centre">Media Center</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vision for Accelerated Sustainable Development Ghana</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Isotope JS for filtering -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <script>
+    // Initialize Isotope for filtering
+    document.addEventListener('DOMContentLoaded', function() {
+      // init Isotope after images have loaded
+      window.addEventListener('load', function() {
+        var iso = new Isotope('.row', {
+          itemSelector: '.toolkit-item',
+          layoutMode: 'fitRows'
+        });
+
+        // filter items on button click
+        document.querySelector('.toolkit-filters').addEventListener('click', function(event) {
+          if (!event.target.classList.contains('filter-item')) return;
+          
+          var filterValue = event.target.getAttribute('data-filter');
+          
+          // remove active class from all filter items
+          document.querySelectorAll('.filter-item').forEach(function(item) {
+            item.classList.remove('active');
+          });
+          
+          // add active class to clicked filter item
+          event.target.classList.add('active');
+          
+          // filter items
+          if (filterValue === '*') {
+            iso.arrange({ filter: '*' });
+          } else {
+            iso.arrange({ filter: filterValue });
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>

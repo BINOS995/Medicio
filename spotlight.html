@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Spotlight - VAST-Ghana</title>
+  <meta name="description" content="Spotlight on key issues, campaigns, and individuals in tobacco control and public health">
+  <meta name="keywords" content="VAST-Ghana spotlight, tobacco control champions, public health campaigns, health advocacy spotlight">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .spotlight-item {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .spotlight-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .spotlight-item:hover {
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .spotlight-item .spotlight-image {
+      overflow: hidden;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .spotlight-item .spotlight-image img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .spotlight-item:hover .spotlight-image img {
+      transform: scale(1.05);
+    }
+
+    .spotlight-item .spotlight-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .spotlight-item .spotlight-meta .spotlight-date {
+      font-weight: 500;
+    }
+
+    .spotlight-item .spotlight-meta .spotlight-category {
+      background: var(--accent-color);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .spotlight-item .spotlight-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      line-height: 1.4;
+      color: var(--heading-color);
+    }
+
+    .spotlight-item .spotlight-excerpt {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .spotlight-item .btn-read-more {
+      display: inline-flex;
+      align-items: center;
+      color: var(--accent-color);
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .spotlight-item .btn-read-more:hover {
+      color: var(--accent-color-dark);
+    }
+
+    .spotlight-item .btn-read-more i {
+      margin-left: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    .spotlight-item .btn-read-more:hover i {
+      transform: translateX(3px);
+    }
+
+    /* Author Styles */
+    .spotlight-author, .featured-author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 8px;
+    }
+
+    .author-photo, .author-photo-small {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+      border: 2px solid var(--accent-color);
+    }
+
+    .author-photo-small {
+      width: 40px;
+      height: 40px;
+    }
+
+    .author-info h4, .author-info-small h4 {
+      margin: 0 0 5px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--heading-color);
+    }
+
+    .author-info p, .author-info-small p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .author-info-small h4 {
+      font-size: 14px;
+    }
+
+    .author-info-small p {
+      font-size: 12px;
+    }
+
+    .featured-spotlight {
+      position: relative;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .featured-spotlight img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .featured-spotlight .featured-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+      color: #fff;
+      padding: 40px 30px 30px;
+    }
+
+    .featured-spotlight .featured-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .featured-spotlight .featured-category {
+      background: var(--accent-color);
+      color: #fff;
+      padding: 6px 15px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .featured-spotlight .featured-date {
+      color: #ccc;
+      font-weight: 500;
+    }
+
+    .featured-spotlight .featured-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+
+    .featured-spotlight .featured-excerpt {
+      color: #ddd;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    .featured-spotlight .btn-read-more {
+      display: inline-flex;
+      align-items: center;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      background: var(--accent-color);
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .featured-spotlight .btn-read-more:hover {
+      background: var(--accent-color-dark);
+      transform: translateY(-1px);
+    }
+
+    /* Modern Spotlight Hero Styles */
+    .spotlight-hero {
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('assets/img/Spotlight/voices for change .jpg') center/cover no-repeat;
+      padding: 80px 0 60px;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .spotlight-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: none;
+      opacity: 0;
+    }
+
+    .spotlight-hero .hero-title {
+      color: #fff;
+    }
+
+    .spotlight-hero .hero-description {
+      color: #f1f1f1;
+    }
+
+    .spotlight-hero .stat-label {
+      color: #f1f1f1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-title {
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--heading-color);
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .hero-description {
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      display: block;
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--accent-color);
+      line-height: 1;
+    }
+
+    .stat-label {
+      display: block;
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-image {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Modern Featured Spotlight */
+    .modern-featured {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      margin-bottom: 60px;
+      transition: all 0.3s ease;
+    }
+
+    .modern-featured:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    }
+
+    .featured-image {
+      position: relative;
+      height: 100%;
+      min-height: 400px;
+    }
+
+    .featured-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .featured-badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: var(--accent-color);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .modern-content {
+      padding: 40px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .modern-meta {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .modern-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--heading-color);
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    .modern-excerpt {
+      color: #666;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .modern-author {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    .author-credentials {
+      margin-top: 5px;
+      color: #888;
+      font-size: 12px;
+    }
+
+    .featured-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+
+    .modern-btn {
+      background: var(--accent-color);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      border: none;
+    }
+
+    .modern-btn:hover {
+      background: var(--accent-color-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      color: #fff;
+    }
+
+    .reading-time {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #888;
+      font-size: 14px;
+    }
+
+    /* Modern Filter Styles */
+    .modern-filter {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .filter-header {
+      margin-bottom: 30px;
+    }
+
+    .filter-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--heading-color);
+      margin-bottom: 10px;
+    }
+
+    .filter-description {
+      color: #666;
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .modern-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .modern-btn.filter-btn {
+      background: #f8f9fa;
+      color: #666;
+      border: 2px solid #e9ecef;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modern-btn.filter-btn:hover,
+    .modern-btn.filter-btn.active {
+      background: var(--accent-color);
+      color: #fff;
+      border-color: var(--accent-color);
+      transform: translateY(-2px);
+    }
+
+    .filter-count {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    /* Modern Card Styles */
+    .modern-card {
+      margin-bottom: 40px;
+    }
+
+    .card-modern {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .card-modern:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-image-wrapper {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card-modern:hover .card-image {
+      transform: scale(1.05);
+    }
+
+    .card-category-badge {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background: var(--accent-color);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .card-date {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: rgba(255, 255, 255, 0.9);
+      color: #666;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .card-content {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 250px);
+    }
+
+    .card-header {
+      flex-grow: 1;
+      margin-bottom: 25px;
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--heading-color);
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+
+    .card-excerpt {
+      color: #666;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .card-author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 12px;
+    }
+
+    .card-author-photo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+      border: 2px solid var(--accent-color);
+    }
+
+    .card-author-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--heading-color);
+      margin: 0 0 3px 0;
+    }
+
+    .card-author-role {
+      font-size: 14px;
+      color: #666;
+      margin: 0 0 3px 0;
+    }
+
+    .card-author-credentials {
+      color: #888;
+      font-size: 11px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      background: #e9ecef;
+      color: #666;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    .card-read-more {
+      background: var(--accent-color);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .card-read-more:hover {
+      background: var(--accent-color-dark);
+      transform: translateY(-2px);
+      color: #fff;
+    }
+
+    .featured-spotlight .btn-read-more i {
+      margin-left: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .featured-spotlight .btn-read-more:hover i {
+      transform: translateX(3px);
+    }
+
+    /* Page Header Styles */
+    .page-header-content {
+      flex: 1;
+    }
+
+    .page-intro {
+      font-size: 18px;
+      color: #666;
+      margin-top: 10px;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+
+    /* Category Filter Styles */
+    .category-filter {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .filter-buttons {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .filter-btn {
+      padding: 8px 20px;
+      border: 2px solid var(--accent-color);
+      background: transparent;
+      color: var(--accent-color);
+      border-radius: 25px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--accent-color);
+      color: #fff;
+    }
+
+    /* Modern Pagination Styles */
+    .modern-pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin: 60px 0 40px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .modern-pagination ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+
+    .modern-pagination .page-item {
+      list-style: none;
+      margin: 0;
+    }
+
+    .modern-pagination .page-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border: none;
+      border-radius: 50%;
+      background: linear-gradient(145deg, #ffffff, #f0f0f0);
+      color: #666;
+      font-weight: 600;
+      font-size: 16px;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 
+        8px 8px 16px rgba(0, 0, 0, 0.1),
+        -8px -8px 16px rgba(255, 255, 255, 0.8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .modern-pagination .page-link:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 
+        12px 12px 24px rgba(0, 0, 0, 0.15),
+        -12px -12px 24px rgba(255, 255, 255, 0.9);
+      color: var(--accent-color);
+    }
+
+    .modern-pagination .page-link::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: linear-gradient(135deg, var(--accent-color), #28a745);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.4s ease;
+      z-index: -1;
+    }
+
+    .modern-pagination .page-link:hover::before {
+      width: 100%;
+      height: 100%;
+    }
+
+    .modern-pagination .page-item.active .page-link {
+      background: linear-gradient(135deg, var(--accent-color), #28a745);
+      color: #fff;
+      transform: translateY(-3px) scale(1.1);
+      box-shadow: 
+        0 0 20px rgba(40, 167, 69, 0.4),
+        8px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .modern-pagination .page-item.active .page-link::before {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #28a745, var(--accent-color));
+    }
+
+    .modern-pagination .page-item:first-child .page-link,
+    .modern-pagination .page-item:last-child .page-link {
+      width: auto;
+      padding: 0 20px;
+      border-radius: 25px;
+      font-size: 14px;
+      gap: 8px;
+    }
+
+    .modern-pagination .page-item:first-child .page-link i,
+    .modern-pagination .page-item:last-child .page-link i {
+      font-size: 18px;
+    }
+
+    .modern-pagination .page-item.disabled .page-link {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.1),
+        -4px -4px 8px rgba(255, 255, 255, 0.8);
+    }
+
+    .modern-pagination .page-item.disabled .page-link:hover {
+      color: #666;
+      transform: none;
+      box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.1),
+        -4px -4px 8px rgba(255, 255, 255, 0.8);
+    }
+
+    .modern-pagination .page-item.disabled .page-link::before {
+      display: none;
+    }
+
+    /* Pagination with gradient background */
+    .pagination-container {
+      position: relative;
+      margin: 60px 0;
+      padding: 30px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .pagination-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+    }
+
+    /* Modern page info */
+    .page-info {
+      text-align: center;
+      margin: 20px 0 40px;
+      color: #666;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .page-info span {
+      color: var(--accent-color);
+      font-weight: 600;
+    }
+
+    /* Advanced pagination effects */
+    @keyframes paginationGlow {
+      0%, 100% {
+        box-shadow: 0 0 20px rgba(40, 167, 69, 0.3);
+      }
+      50% {
+        box-shadow: 0 0 30px rgba(40, 167, 69, 0.6);
+      }
+    }
+
+    .modern-pagination .page-item.active .page-link {
+      animation: paginationGlow 2s ease-in-out infinite;
+    }
+
+    /* Ripple effect on click */
+    .modern-pagination .page-link {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .modern-pagination .page-link::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
+    }
+
+    .modern-pagination .page-link:active::after {
+      width: 100px;
+      height: 100px;
+    }
+
+    /* Floating animation for active page */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(-3px) scale(1.1);
+      }
+      50% {
+        transform: translateY(-6px) scale(1.1);
+      }
+    }
+
+    .modern-pagination .page-item.active .page-link {
+      animation: float 3s ease-in-out infinite, paginationGlow 2s ease-in-out infinite;
+    }
+
+    /* Progress indicator */
+    .pagination-progress {
+      width: 100%;
+      height: 4px;
+      background: #e9ecef;
+      border-radius: 2px;
+      margin: 20px auto;
+      max-width: 200px;
+      overflow: hidden;
+    }
+
+    .pagination-progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-color), #28a745);
+      border-radius: 2px;
+      transition: width 0.3s ease;
+      position: relative;
+    }
+
+    .pagination-progress-bar::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+      animation: progressShine 2s infinite;
+    }
+
+    @keyframes progressShine {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .modern-pagination {
+        gap: 6px;
+        padding: 15px;
+        border-radius: 30px;
+      }
+      
+      .modern-pagination ul {
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      
+      .modern-pagination .page-link {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+      }
+      
+      .modern-pagination .page-item:first-child .page-link,
+      .modern-pagination .page-item:last-child .page-link {
+        padding: 0 15px;
+        font-size: 12px;
+      }
+      
+      .modern-pagination .page-item:first-child .page-link span,
+      .modern-pagination .page-item:last-child .page-link span {
+        display: none;
+      }
+      
+      .pagination-container {
+        margin: 40px 0;
+        padding: 20px 0;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .modern-pagination {
+        gap: 4px;
+        padding: 12px;
+        border-radius: 25px;
+      }
+      
+      .modern-pagination ul {
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      
+      .modern-pagination .page-link {
+        width: 36px;
+        height: 36px;
+        font-size: 12px;
+      }
+      
+      .modern-pagination .page-item:first-child .page-link,
+      .modern-pagination .page-item:last-child .page-link {
+        padding: 0 12px;
+        font-size: 11px;
+      }
+      
+      .modern-pagination .page-item:first-child .page-link i,
+      .modern-pagination .page-item:last-child .page-link i {
+        font-size: 14px;
+      }
+    }
+      .featured-spotlight img {
+        height: 250px;
+      }
+      
+      .featured-spotlight .featured-content {
+        padding: 30px 20px 20px;
+      }
+      
+      .featured-spotlight .featured-title {
+        font-size: 22px;
+      }
+      
+      .spotlight-item .spotlight-image img {
+        height: 180px;
+      }
+      
+      .spotlight-item .spotlight-title {
+        font-size: 18px;
+      }
+      
+      .page-intro {
+        font-size: 16px;
+      }
+      
+      .filter-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Modern Responsive Styles */
+      .spotlight-hero {
+        padding: 60px 0 40px;
+      }
+
+      .hero-title {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      .hero-description {
+        font-size: 18px;
+        text-align: center;
+      }
+
+      .hero-stats {
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .modern-featured {
+        margin-bottom: 40px;
+      }
+
+      .featured-image {
+        min-height: 300px;
+      }
+
+      .modern-content {
+        padding: 30px 20px;
+      }
+
+      .modern-title {
+        font-size: 24px;
+      }
+
+      .modern-buttons {
+        gap: 10px;
+      }
+
+      .modern-btn.filter-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+      }
+
+      .card-modern {
+        margin-bottom: 30px;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .card-footer {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+      }
+
+      .card-read-more {
+        align-self: stretch;
+        justify-content: center;
+      }
+    
+
+    @media (max-width: 576px) {
+      .hero-stats {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .modern-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .modern-btn.filter-btn {
+        width: 100%;
+        max-width: 250px;
+      }
+
+      .featured-actions {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+      }
+
+      .card-author {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .card-author-photo {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .spotlight-author, .featured-author {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .author-photo, .author-photo-small {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Press Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html" class="active">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <div class="page-header-content">
+          <h1 class="mb-2 mb-lg-0">Spotlights & Opinions</h1>
+          <p class="page-intro">Explore insights and perspectives from our team and partners on the key issues shaping our communities.</p>
+        </div>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Spotlights & Opinions</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Modern Hero Banner -->
+    <section class="spotlight-hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="hero-content">
+              <h2 class="hero-title">Voices for Change</h2>
+              <p class="hero-description">Discover compelling stories, expert insights, and community perspectives from our dedicated team and partners working to create positive health and social impact across Ghana.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Modern Hero Banner -->
+
+    <!-- Spotlight Section -->
+    <section id="spotlight" class="spotlight section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Insights & Perspectives</h2>
+          <p>Thoughtful commentary from our staff and partners on health, development, and social impact</p>
+        </div>
+
+        <!-- Featured Spotlight -->
+        <div class="featured-spotlight modern-featured">
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div class="featured-image">
+                <img src="assets/img/Spotlight/PublicHealthProtection.jpg" alt="Public Health Protection - Featured Spotlight" class="img-fluid">
+                <div class="featured-badge">
+                  <i class="bi bi-star-fill"></i>
+                  <span>Featured Story</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="featured-content modern-content">
+                <div class="featured-meta modern-meta">
+                  <div class="featured-category">Health Policy</div>
+                  <div class="featured-date">June 15, 2024</div>
+                </div>
+                <h2 class="featured-title modern-title">Ghana's Tobacco Control Bill: The Path to Stronger Regulation</h2>
+                <p class="featured-excerpt modern-excerpt">An in-depth look at Ghana's journey towards comprehensive tobacco control legislation and the stakeholders driving this important public health initiative. This comprehensive analysis explores the challenges, opportunities, and potential impact of stronger tobacco regulations.</p>
+                <div class="featured-author modern-author">
+                  <img src="assets/img/our team/Mr Solomon Foli.jpg" alt="Author" class="author-photo">
+                  <div class="author-info">
+                    <h4 class="author-name">Solomon Foli</h4>
+                    <p class="author-role">Program Manager, VAST-Ghana</p>
+                    <div class="author-credentials">
+                      <small>Health Policy Expert | 10+ Years Experience</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="featured-actions">
+                  <a href="spotlight-article.html" class="btn-read-more modern-btn">
+                    <span>Read Full Story</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                  <div class="reading-time">
+                    <i class="bi bi-clock"></i>
+                    <span>8 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modern Category Filter -->
+        <div class="category-filter modern-filter">
+          <div class="filter-header">
+            <h3 class="filter-title">Explore by Topic</h3>
+            <p class="filter-description">Filter articles by focus area to find content that matters most to you</p>
+          </div>
+          <div class="filter-buttons modern-buttons">
+            <button class="filter-btn modern-btn active" data-filter="all">
+              <i class="bi bi-grid-3x3-gap"></i>
+              <span>All Articles</span>
+              <small class="filter-count">12</small>
+            </button>
+            <button class="filter-btn modern-btn" data-filter="health-policy">
+              <i class="bi bi-heart-pulse"></i>
+              <span>Health Policy</span>
+              <small class="filter-count">4</small>
+            </button>
+            <button class="filter-btn modern-btn" data-filter="youth-advocacy">
+              <i class="bi bi-people"></i>
+              <span>Youth Advocacy</span>
+              <small class="filter-count">3</small>
+            </button>
+            <button class="filter-btn modern-btn" data-filter="partnership">
+              <i class="bi bi-handshake"></i>
+              <span>Partnership</span>
+              <small class="filter-count">2</small>
+            </button>
+            <button class="filter-btn modern-btn" data-filter="innovation">
+              <i class="bi bi-lightbulb"></i>
+              <span>Innovation</span>
+              <small class="filter-count">2</small>
+            </button>
+            <button class="filter-btn modern-btn" data-filter="education">
+              <i class="bi bi-book"></i>
+              <span>Education</span>
+              <small class="filter-count">1</small>
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <!-- Spotlight Items -->
+            <div class="spotlight-list">
+              <!-- Modern Spotlight Item -->
+              <div class="spotlight-item modern-card" data-category="youth-advocacy">
+                <div class="card-modern">
+                  <div class="card-image-wrapper">
+                    <img src="assets/img/Spotlight/We need plicies for PR's.jpg" alt="Youth Advocacy Spotlight" class="card-image">
+                    <div class="card-category-badge">Youth Advocacy</div>
+                    <div class="card-date">Feb 28, 2024</div>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-header">
+                      <h3 class="card-title">World No Tobacco Day 2024: Protecting Youth from Industry Manipulation</h3>
+                      <div class="card-excerpt">
+                        As we commemorate World No Tobacco Day, it's crucial to examine how tobacco companies continue to target young people with sophisticated marketing strategies. Our youth programs coordinator shares insights from recent field research and community engagement initiatives across Ghana's urban and rural communities.
+                      </div>
+                    </div>
+                    <div class="card-author">
+                      <img src="assets/img/our team/Ernestina Agyei.jpg" alt="Ernestina Agyei" class="card-author-photo">
+                      <div class="card-author-info">
+                        <h4 class="card-author-name">Ernestina Agyei</h4>
+                        <p class="card-author-role">Youth Programs Coordinator</p>
+                        <div class="card-author-credentials">
+                          <small>MA Social Work | Youth Development Expert</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-meta">
+                        <span class="reading-time"><i class="bi bi-clock"></i> 6 min read</span>
+                        <span class="card-tags">
+                          <span class="tag">Youth</span>
+                          <span class="tag">Advocacy</span>
+                        </span>
+                      </div>
+                      <a href="spotlight-article.html" class="card-read-more">
+                        <span>Read Article</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modern Spotlight Item -->
+              <div class="spotlight-item modern-card" data-category="partnership">
+                <div class="card-modern">
+                  <div class="card-image-wrapper">
+                    <img src="assets/img/Spotlight/africa fight against NCDS.jpg" alt="Africa Fight Against NCDs Partnership" class="card-image">
+                    <div class="card-category-badge">Partnership</div>
+                    <div class="card-date">Apr 12, 2024</div>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-header">
+                      <h3 class="card-title">Building Bridges: How Cross-Sector Partnerships Drive Health Impact</h3>
+                      <div class="card-excerpt">
+                        Effective public health initiatives require collaboration across sectors. Our partnerships with educational institutions, community organizations, and government agencies demonstrate the power of collective action in creating sustainable health outcomes.
+                      </div>
+                    </div>
+                    <div class="card-author">
+                      <img src="assets/img/our team/Mr Stephen .jpg" alt="Stephen Addo" class="card-author-photo">
+                      <div class="card-author-info">
+                        <h4 class="card-author-name">Stephen Addo</h4>
+                        <p class="card-author-role">Partnerships Manager</p>
+                        <div class="card-author-credentials">
+                          <small>MPH | Partnership Development Expert</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-meta">
+                        <span class="reading-time"><i class="bi bi-clock"></i> 5 min read</span>
+                        <span class="card-tags">
+                          <span class="tag">Partnerships</span>
+                          <span class="tag">Collaboration</span>
+                        </span>
+                      </div>
+                      <a href="spotlight-article.html" class="card-read-more">
+                        <span>Read Article</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modern Spotlight Item -->
+              <div class="spotlight-item modern-card" data-category="investigation">
+                <div class="card-modern">
+                  <div class="card-image-wrapper">
+                    <img src="assets/img/Spotlight/Health-Interference-Industry-1.jpg" alt="Tobacco Industry Interference Investigation" class="card-image">
+                    <div class="card-category-badge">Investigation</div>
+                    <div class="card-date">Mar 8, 2024</div>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-header">
+                      <h3 class="card-title">Uncovering Tobacco Industry Interference in Health Policy</h3>
+                      <div class="card-excerpt">
+                        Our investigative report reveals how tobacco companies attempt to influence health policies in Ghana through various tactics, including lobbying and corporate social responsibility initiatives.
+                      </div>
+                    </div>
+                    <div class="card-author">
+                      <img src="assets/img/our team/default-avatar.jpg" alt="Investigation Team" class="card-author-photo">
+                      <div class="card-author-info">
+                        <h4 class="card-author-name">Investigation Team</h4>
+                        <p class="card-author-role">Research & Investigation Unit</p>
+                        <div class="card-author-credentials">
+                          <small>Policy Analysis | Industry Monitoring</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-meta">
+                        <span class="reading-time"><i class="bi bi-clock"></i> 7 min read</span>
+                        <span class="card-tags">
+                          <span class="tag">Investigation</span>
+                          <span class="tag">Policy</span>
+                        </span>
+                      </div>
+                      <a href="spotlight-article.html" class="card-read-more">
+                        <span>Read Article</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modern Spotlight Item -->
+              <div class="spotlight-item modern-card" data-category="success-story">
+                <div class="card-modern">
+                  <div class="card-image-wrapper">
+                    <img src="assets/img/Spotlight/Community-Led Tobacco Control- The Kumasi Model.jpeg" alt="Community-Led Tobacco Control - The Kumasi Model" class="card-image">
+                    <div class="card-category-badge">Success Story</div>
+                    <div class="card-date">Feb 20, 2024</div>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-header">
+                      <h3 class="card-title">Community-Led Tobacco Control: The Kumasi Model</h3>
+                      <div class="card-excerpt">
+                        How community engagement and local leadership in Kumasi created a successful model for tobacco control that is being replicated across other regions in Ghana.
+                      </div>
+                    </div>
+                    <div class="card-author">
+                      <img src="assets/img/our team/default-avatar.jpg" alt="Community Team" class="card-author-photo">
+                      <div class="card-author-info">
+                        <h4 class="card-author-name">Community Team</h4>
+                        <p class="card-author-role">Community Engagement Unit</p>
+                        <div class="card-author-credentials">
+                          <small>Community Development | Local Leadership</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-meta">
+                        <span class="reading-time"><i class="bi bi-clock"></i> 6 min read</span>
+                        <span class="card-tags">
+                          <span class="tag">Community</span>
+                          <span class="tag">Success</span>
+                        </span>
+                      </div>
+                      <a href="spotlight-article.html" class="card-read-more">
+                        <span>Read Article</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modern Pagination -->
+            <div class="pagination-container">
+              <div class="page-info">
+                Showing <span>1-6</span> of <span>18</span> articles
+              </div>
+              <div class="pagination-progress">
+                <div class="pagination-progress-bar" style="width: 33%;"></div>
+              </div>
+              <nav class="modern-pagination" aria-label="Page navigation">
+                <ul>
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <i class="bi bi-chevron-left"></i>
+                      <span>Prev</span>
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="spotlight.html">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="spotlight.html">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="spotlight.html">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="spotlight.html">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="spotlight.html">5</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="spotlight.html" aria-label="Next">
+                      <span>Next</span>
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <!-- Search Form -->
+              <div class="sidebar-item search">
+                <form action="">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Spotlight...">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Categories -->
+              <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Categories</h3>
+                <ul>
+                  <li><a href="spotlight.html" data-filter="health-policy">Health Policy <span>(3)</span></a></li>
+                  <li><a href="spotlight.html" data-filter="youth-advocacy">Youth Advocacy <span>(2)</span></a></li>
+                  <li><a href="spotlight.html" data-filter="partnership">Partnership <span>(4)</span></a></li>
+                  <li><a href="spotlight.html" data-filter="innovation">Innovation <span>(3)</span></a></li>
+                  <li><a href="spotlight.html" data-filter="education">Education <span>(2)</span></a></li>
+                </ul>
+              </div>
+
+              <!-- Recent Posts -->
+              <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Recent Spotlights</h3>
+                <div class="recent-post-item">
+                  <h4><a href="spotlight-article.html">Tobacco Industry Tactics During the Pandemic</a></h4>
+                  <time>January 15, 2024</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="spotlight-article.html">Youth Advocates Leading the Change</a></h4>
+                  <time>December 10, 2023</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="spotlight-article.html">The Economic Cost of Tobacco in Ghana</a></h4>
+                  <time>November 22, 2023</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="spotlight-article.html">Tobacco Control and Climate Justice</a></h4>
+                  <time>October 5, 2023</time>
+                </div>
+              </div>
+
+              <!-- Tags -->
+              <div class="sidebar-item tags">
+                <h3 class="sidebar-title">Tags</h3>
+                <ul>
+                  <li><a href="#">Tobacco Control</a></li>
+                  <li><a href="#">Advocacy</a></li>
+                  <li><a href="#">Public Health</a></li>
+                  <li><a href="#">Youth</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Research</a></li>
+                  <li><a href="#">Industry Interference</a></li>
+                  <li><a href="#">FCTC</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Spotlight Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">VAST-Ghana</span>
+          </a>
+          <p class="pt-3">Vision for Accelerated Sustainable Development Ghana is a leading health advocacy organization dedicated to promoting evidence-based policies for tobacco control, alcohol harm reduction, and climate justice in Ghana and across Africa.</p>
+          <div class="footer-contact pt-3">
+            <p><strong>Address:</strong> Madina Firestone, Accra<br>
+            GPS: GM-017-3682</p>
+            <p class="mt-2"><strong>Phone:</strong> +233 30 393 8058</p>
+            <p><strong>Email:</strong> info@vastgh.org</p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/vastghana" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://web.facebook.com/vastghana" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/vastghana" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/vision-for-accelerated-sustainable-development-ghana" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@Vast_Ghana" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#services">Our Work</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="publication.html">Publications</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Our Focus Areas</h4>
+          <ul>
+            <li><a href="index.html#services">Tobacco Control Advocacy</a></li>
+            <li><a href="index.html#services">Alcohol Harm Reduction</a></li>
+            <li><a href="index.html#services">Climate Justice & Health</a></li>
+            <li><a href="index.html#services">Health Policy Research</a></li>
+            <li><a href="index.html#services">Community Engagement</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="publication.html">Research Publications</a></li>
+            <li><a href="#">Policy Briefs</a></li>
+            <li><a href="news.html">News & Updates</a></li>
+            <li><a href="#">Annual Reports</a></li>
+            <li><a href="index.html#media-centre">Media Center</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vision for Accelerated Sustainable Development Ghana</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Spotlight Filtering Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      try {
+        console.log('Spotlight script loaded');
+        
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const sidebarLinks = document.querySelectorAll('.sidebar-item.categories a');
+        const spotlightItems = document.querySelectorAll('.spotlight-item');
+        const featuredSpotlight = document.querySelector('.featured-spotlight');
+        const pageLinks = document.querySelectorAll('.modern-pagination .page-link');
+        const progressBar = document.querySelector('.pagination-progress-bar');
+        
+        console.log('Elements found:', {
+          filterButtons: filterButtons.length,
+          sidebarLinks: sidebarLinks.length,
+          spotlightItems: spotlightItems.length,
+          featuredSpotlight: featuredSpotlight ? 'found' : 'not found',
+          pageLinks: pageLinks.length,
+          progressBar: progressBar ? 'found' : 'not found'
+        });
+
+        // Add data attributes to spotlight items for filtering
+        spotlightItems.forEach((item, index) => {
+          if (index === 0) item.setAttribute('data-category', 'youth-advocacy');
+          if (index === 1) item.setAttribute('data-category', 'partnership');
+          if (index === 2) item.setAttribute('data-category', 'health-policy');
+          if (index === 3) item.setAttribute('data-category', 'education');
+        });
+
+        // Set featured spotlight category
+        if (featuredSpotlight) {
+          featuredSpotlight.setAttribute('data-category', 'health-policy');
+        }
+
+        // Modern pagination functionality
+        if (pageLinks && pageLinks.length > 0) {
+          console.log('Setting up pagination functionality');
+          pageLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+              e.preventDefault();
+              
+              // Remove active class from all page items
+              document.querySelectorAll('.modern-pagination .page-item').forEach(item => {
+                item.classList.remove('active');
+              });
+              
+              // Add active class to clicked item
+              this.parentElement.classList.add('active');
+              
+              // Update progress bar
+              const pageNumber = parseInt(this.textContent) || 1;
+              const totalPages = 5; // Assuming 5 pages total
+              const progress = (pageNumber / totalPages) * 100;
+              
+              if (progressBar) {
+                progressBar.style.width = progress + '%';
+              }
+              
+              // Add ripple effect
+              const ripple = document.createElement('span');
+              ripple.style.position = 'absolute';
+              ripple.style.borderRadius = '50%';
+              ripple.style.background = 'rgba(255, 255, 255, 0.6)';
+              ripple.style.transform = 'scale(0)';
+              ripple.style.animation = 'ripple 0.6s linear';
+              ripple.style.left = '50%';
+              ripple.style.top = '50%';
+              ripple.style.width = '20px';
+              ripple.style.height = '20px';
+              ripple.style.marginLeft = '-10px';
+              ripple.style.marginTop = '-10px';
+              
+              this.style.position = 'relative';
+              this.appendChild(ripple);
+              
+              setTimeout(() => {
+                ripple.remove();
+              }, 600);
+              
+              // Simulate content loading (for demo purposes)
+              const spotlightGrid = document.querySelector('.spotlight-grid');
+              if (spotlightGrid) {
+                spotlightGrid.style.opacity = '0.6';
+                spotlightGrid.style.transform = 'translateY(20px)';
+                spotlightGrid.style.transition = 'all 0.3s ease';
+                
+                setTimeout(() => {
+                  spotlightGrid.style.opacity = '1';
+                  spotlightGrid.style.transform = 'translateY(0)';
+                }, 300);
+              }
+            });
+          });
+        }
+
+        // Add ripple animation keyframes
+        const style = document.createElement('style');
+        style.textContent = `
+          @keyframes ripple {
+            to {
+              transform: scale(4);
+              opacity: 0;
+            }
+          }
+        `;
+        document.head.appendChild(style);
+
+        function filterSpotlights(category) {
+          console.log('Filtering spotlights by category:', category);
+          
+          // Update active button
+          if (filterButtons && filterButtons.length > 0) {
+            filterButtons.forEach(btn => {
+              btn.classList.remove('active');
+              if (btn.getAttribute('data-filter') === category) {
+                btn.classList.add('active');
+              }
+            });
+          }
+
+          // Filter items
+          const allItems = [featuredSpotlight, ...spotlightItems].filter(item => item);
+          console.log('Items to filter:', allItems.length);
+          
+          allItems.forEach(item => {
+            if (category === 'all' || item.getAttribute('data-category') === category) {
+              item.style.display = '';
+              item.style.opacity = '0';
+              item.style.transform = 'translateY(20px)';
+              
+              // Animate in
+              setTimeout(() => {
+                item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                item.style.opacity = '1';
+                item.style.transform = 'translateY(0)';
+              }, 50);
+            } else {
+              item.style.opacity = '0';
+              item.style.transform = 'translateY(20px)';
+              
+              setTimeout(() => {
+                item.style.display = 'none';
+              }, 300);
+            }
+          });
+        }
+
+        // Add click event listeners to filter buttons
+        filterButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const category = this.getAttribute('data-filter');
+            filterSpotlights(category);
+          });
+        });
+
+        // Add click event listeners to sidebar category links
+        sidebarLinks.forEach(link => {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const category = this.getAttribute('data-filter');
+            filterSpotlights(category);
+            
+            // Smooth scroll to spotlight section
+            document.querySelector('#spotlight').scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+
+        // Add hover effects to spotlight items
+        spotlightItems.forEach(item => {
+          item.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+          });
+          
+          item.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+          });
+        });
+
+        // Add read more button click tracking (for analytics)
+        const readMoreButtons = document.querySelectorAll('.btn-read-more');
+        readMoreButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Here you would typically navigate to the full article
+            // Navigation to individual article page will be implemented later
+            console.log('Read more clicked for article');
+          });
+        });
+
+        // Initialize with all items visible
+        filterSpotlights('all');
+      
+      } catch (error) {
+        console.error('Error in spotlight script:', error);
+        console.error('Error stack:', error.stack);
+      }
+    });
+  </script>
+
+</body>
+
+</html>

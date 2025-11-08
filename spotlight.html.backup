@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Spotlight - VAST-Ghana</title>
+  <meta name="description" content="Spotlight on key issues, campaigns, and individuals in tobacco control and public health">
+  <meta name="keywords" content="VAST-Ghana spotlight, tobacco control champions, public health campaigns, health advocacy spotlight">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .spotlight-item {
+      margin-bottom: 50px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 40px;
+    }
+    
+    .spotlight-item:last-child {
+      border-bottom: none;
+    }
+    
+    .spotlight-item .spotlight-image {
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    
+    .spotlight-item .spotlight-image img {
+      transition: transform 0.5s ease;
+    }
+    
+    .spotlight-item:hover .spotlight-image img {
+      transform: scale(1.05);
+    }
+    
+    .spotlight-item .spotlight-meta {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #777;
+    }
+    
+    .spotlight-item .spotlight-meta .spotlight-date {
+      margin-right: 15px;
+    }
+    
+    .spotlight-item .spotlight-meta .spotlight-category {
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+    
+    .spotlight-item .spotlight-title {
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .spotlight-item .spotlight-excerpt {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    
+    .spotlight-item .btn-read-more {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 25px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .spotlight-item .btn-read-more:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .spotlight-item .btn-read-more i {
+      margin-left: 5px;
+    }
+    
+    .featured-spotlight {
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+    
+    .featured-spotlight img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .featured-spotlight .featured-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 30px;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+      color: #fff;
+    }
+    
+    .featured-spotlight .featured-meta {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .featured-spotlight .featured-category {
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-right: 15px;
+    }
+    
+    .featured-spotlight .featured-date {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    
+    .featured-spotlight .featured-title {
+      font-size: 28px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    
+    .featured-spotlight .featured-excerpt {
+      margin-bottom: 20px;
+      opacity: 0.9;
+    }
+    
+    .featured-spotlight .btn-read-more {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 25px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .featured-spotlight .btn-read-more:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .featured-spotlight .btn-read-more i {
+      margin-left: 5px;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html" class="active">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Spotlight</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Spotlight</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Spotlight Section -->
+    <section id="spotlight" class="spotlight section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Spotlight Features</h2>
+          <p>Highlighting key issues, campaigns, and champions in tobacco control and public health</p>
+        </div>
+
+        <!-- Featured Spotlight -->
+        <div class="featured-spotlight">
+          <img src="assets/img/spotlight-featured.jpg" alt="Featured Spotlight">
+          <div class="featured-content">
+            <div class="featured-meta">
+              <div class="featured-category">Campaign</div>
+              <div class="featured-date">June 15, 2024</div>
+            </div>
+            <h2 class="featured-title">Ghana's Tobacco Control Bill: The Path to Stronger Regulation</h2>
+            <p class="featured-excerpt">An in-depth look at Ghana's journey towards comprehensive tobacco control legislation and the stakeholders driving this important public health initiative.</p>
+            <a href="#" class="btn-read-more">Read Full Story <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <!-- Spotlight Items -->
+            <div class="spotlight-list">
+              <!-- Spotlight Item -->
+              <div class="spotlight-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="spotlight-image">
+                      <img src="assets/img/spotlight-1.jpg" alt="Spotlight Image" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="spotlight-meta">
+                      <div class="spotlight-date">May 31, 2024</div>
+                      <div class="spotlight-category">Event</div>
+                    </div>
+                    <h3 class="spotlight-title">World No Tobacco Day 2024: Protecting Youth from Industry Manipulation</h3>
+                    <p class="spotlight-excerpt">VAST-Ghana led a nationwide campaign to raise awareness about tobacco industry tactics targeting young people and advocated for stronger regulations to protect the next generation.</p>
+                    <a href="#" class="btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Item -->
+              <div class="spotlight-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="spotlight-image">
+                      <img src="assets/img/spotlight-2.jpg" alt="Spotlight Image" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="spotlight-meta">
+                      <div class="spotlight-date">April 12, 2024</div>
+                      <div class="spotlight-category">Profile</div>
+                    </div>
+                    <h3 class="spotlight-title">Champion Spotlight: Dr. Olivia Agyekum's Fight Against Tobacco</h3>
+                    <p class="spotlight-excerpt">Meet Dr. Olivia Agyekum, whose groundbreaking research and tireless advocacy have significantly advanced tobacco control efforts in Ghana and across West Africa.</p>
+                    <a href="#" class="btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Item -->
+              <div class="spotlight-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="spotlight-image">
+                      <img src="assets/img/spotlight-3.jpg" alt="Spotlight Image" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="spotlight-meta">
+                      <div class="spotlight-date">March 8, 2024</div>
+                      <div class="spotlight-category">Investigation</div>
+                    </div>
+                    <h3 class="spotlight-title">Uncovering Tobacco Industry Interference in Health Policy</h3>
+                    <p class="spotlight-excerpt">Our investigative report reveals how tobacco companies attempt to influence health policies in Ghana through various tactics, including lobbying and corporate social responsibility initiatives.</p>
+                    <a href="#" class="btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Spotlight Item -->
+              <div class="spotlight-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="spotlight-image">
+                      <img src="assets/img/spotlight-4.jpg" alt="Spotlight Image" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="spotlight-meta">
+                      <div class="spotlight-date">February 20, 2024</div>
+                      <div class="spotlight-category">Success Story</div>
+                    </div>
+                    <h3 class="spotlight-title">Community-Led Tobacco Control: The Kumasi Model</h3>
+                    <p class="spotlight-excerpt">How community engagement and local leadership in Kumasi created a successful model for tobacco control that is being replicated across other regions in Ghana.</p>
+                    <a href="#" class="btn-read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+              <ul>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <!-- Search Form -->
+              <div class="sidebar-item search">
+                <form action="">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Spotlight...">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Categories -->
+              <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Categories</h3>
+                <ul>
+                  <li><a href="#">Campaigns <span>(5)</span></a></li>
+                  <li><a href="#">Profiles <span>(3)</span></a></li>
+                  <li><a href="#">Investigations <span>(2)</span></a></li>
+                  <li><a href="#">Success Stories <span>(4)</span></a></li>
+                  <li><a href="#">Events <span>(7)</span></a></li>
+                </ul>
+              </div>
+
+              <!-- Recent Posts -->
+              <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Recent Spotlights</h3>
+                <div class="recent-post-item">
+                  <h4><a href="#">Tobacco Industry Tactics During the Pandemic</a></h4>
+                  <time>January 15, 2024</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="#">Youth Advocates Leading the Change</a></h4>
+                  <time>December 10, 2023</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="#">The Economic Cost of Tobacco in Ghana</a></h4>
+                  <time>November 22, 2023</time>
+                </div>
+                <div class="recent-post-item">
+                  <h4><a href="#">Tobacco Control and Climate Justice</a></h4>
+                  <time>October 5, 2023</time>
+                </div>
+              </div>
+
+              <!-- Tags -->
+              <div class="sidebar-item tags">
+                <h3 class="sidebar-title">Tags</h3>
+                <ul>
+                  <li><a href="#">Tobacco Control</a></li>
+                  <li><a href="#">Advocacy</a></li>
+                  <li><a href="#">Public Health</a></li>
+                  <li><a href="#">Youth</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Research</a></li>
+                  <li><a href="#">Industry Interference</a></li>
+                  <li><a href="#">FCTC</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Spotlight Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+              <span>VAST-Ghana</span>
+            </a>
+            <p>Vision for Accelerated Sustainable Development, Ghana (VAST-Ghana) is dedicated to promoting sustainable health and development through evidence-informed advocacy.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Focus Areas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Focus Areas</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tobacco Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Alcohol Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Road Safety</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Climate Justice</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Health Promotion</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              No. 8 Abeeku Crescent <br>
+              Accra, Ghana<br><br>
+              <strong>Phone:</strong> +233 30 393 8058<br>
+              <strong>Email:</strong> info@vast-ghana.org<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>VAST-Ghana</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

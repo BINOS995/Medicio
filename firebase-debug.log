@@ -1,0 +1,31 @@
+[debug] [2025-09-10T08:24:09.288Z] ----------------------------------------------------------------------
+[debug] [2025-09-10T08:24:09.289Z] Command:       /usr/local/bin/firebase /Users/macuser/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2025-09-10T08:24:09.289Z] CLI Version:   13.0.3
+[debug] [2025-09-10T08:24:09.290Z] Platform:      darwin
+[debug] [2025-09-10T08:24:09.290Z] Node Version:  v18.5.0
+[debug] [2025-09-10T08:24:09.297Z] Time:          Wed Sep 10 2025 08:24:09 GMT+0000 (Greenwich Mean Time)
+[debug] [2025-09-10T08:24:09.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-10T08:24:09.300Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-09-10T08:24:09.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-10T08:24:09.399Z] > authorizing via signed-in user (kwartengblanksonfobi@gmail.com)
+[debug] [2025-09-10T08:24:09.399Z] [iam] checking project vast-gh for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-09-10T08:24:09.400Z] > refreshing access token with scopes: []
+[debug] [2025-09-10T08:24:09.401Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-09-10T08:24:09.401Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-10T08:24:09.407Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-09-10T08:24:09.408Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2025-09-10T08:24:09.408Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------607159992121427119802525","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[debug] [2025-09-10T08:24:09.408Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2025-09-10T08:24:09.409Z] > refreshing access token with scopes: []
+[debug] [2025-09-10T08:24:09.409Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-09-10T08:24:09.409Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-10T08:24:09.413Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------867136794031290679786338","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[debug] [2025-09-10T08:24:09.413Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier

@@ -4,7 +4,17 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "**/*.py",
+      "**/*.pyc",
+      "**/__pycache__/**",
+      "**/thumbnails/**",
+      "**/pdfs/**",
+      "DEPLOYMENT.md",
+      "THUMBNAILS-README.md",
+      "UPLOAD-README.md",
+      "Readme.txt",
+      "requirements.txt"
     ],
     "rewrites": [
       {

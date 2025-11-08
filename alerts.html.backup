@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Alerts - VAST-Ghana</title>
+  <meta name="description" content="Important alerts and notifications about tobacco control and public health issues">
+  <meta name="keywords" content="alerts, tobacco control, public health, VAST-Ghana, notifications">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .alert-item {
+      margin-bottom: 30px;
+      padding: 25px;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+      border-left: 5px solid var(--color-primary);
+      transition: all 0.3s ease;
+    }
+    
+    .alert-item:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-3px);
+    }
+    
+    .alert-item.urgent {
+      border-left-color: #dc3545;
+    }
+    
+    .alert-item.important {
+      border-left-color: #ffc107;
+    }
+    
+    .alert-item.standard {
+      border-left-color: var(--color-primary);
+    }
+    
+    .alert-item .alert-date {
+      display: inline-block;
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    
+    .alert-item .alert-title {
+      font-size: 22px;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: #333;
+    }
+    
+    .alert-item .alert-content {
+      margin-bottom: 15px;
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    
+    .alert-item .alert-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+    }
+    
+    .alert-item .alert-category {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: #eee;
+      color: #555;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    
+    .alert-item.urgent .alert-category {
+      background-color: #dc3545;
+      color: #fff;
+    }
+    
+    .alert-item.important .alert-category {
+      background-color: #ffc107;
+      color: #333;
+    }
+    
+    .alert-item .read-more {
+      display: inline-flex;
+      align-items: center;
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .alert-item .read-more:hover {
+      color: var(--color-primary-dark);
+    }
+    
+    .alert-item .read-more i {
+      margin-left: 5px;
+    }
+    
+    .sidebar-item {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+    }
+    
+    .sidebar-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .sidebar-item ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-item ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .sidebar-item ul li:last-child {
+      border-bottom: none;
+    }
+    
+    .sidebar-item ul li a {
+      color: #555;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+    }
+    
+    .sidebar-item ul li a:hover {
+      color: var(--color-primary);
+    }
+    
+    .sidebar-item ul li a i {
+      margin-right: 8px;
+      font-size: 12px;
+    }
+    
+    .search-form {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .search-form input {
+      width: 100%;
+      padding: 10px 15px;
+      padding-right: 50px;
+      border: 1px solid #ddd;
+      border-radius: 50px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .search-form input:focus {
+      border-color: var(--color-primary);
+      outline: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    
+    .search-form button {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      background-color: var(--color-primary);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .search-form button:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .tag-cloud a {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: #eee;
+      color: #555;
+      border-radius: 30px;
+      font-size: 13px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .tag-cloud a:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .pagination {
+      margin-top: 50px;
+      justify-content: center;
+    }
+    
+    .pagination .page-item .page-link {
+      color: var(--color-primary);
+      border-color: #eee;
+      margin: 0 5px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    
+    .pagination .page-item.active .page-link {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .pagination .page-item .page-link:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .filter-buttons {
+      margin-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .filter-buttons .btn {
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .filter-buttons .btn.active {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#" class="active"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html" class="active">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Alerts</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li class="current">Alerts</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Alerts Section -->
+    <section class="alerts-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+              <button class="btn btn-outline-primary active" data-filter="all">All Alerts</button>
+              <button class="btn btn-outline-danger" data-filter="urgent">Urgent</button>
+              <button class="btn btn-outline-warning" data-filter="important">Important</button>
+              <button class="btn btn-outline-secondary" data-filter="standard">Standard</button>
+            </div>
+            
+            <!-- Alert Item - Urgent -->
+            <div class="alert-item urgent">
+              <span class="alert-date">July 15, 2023</span>
+              <h3 class="alert-title">Urgent: New Tobacco Industry Tactics Targeting Schools</h3>
+              <div class="alert-content">
+                <p>VAST-Ghana has received reports of tobacco industry representatives approaching schools in the Greater Accra region under the guise of educational programs. These representatives are distributing branded materials and collecting student information for alleged "research purposes."</p>
+                <p>School administrators, teachers, and parents are urged to be vigilant and report any such approaches to VAST-Ghana and local authorities immediately.</p>
+              </div>
+              <div class="alert-footer">
+                <span class="alert-category">Urgent Alert</span>
+                <a href="#" class="read-more">Read Full Alert <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <!-- Alert Item - Important -->
+            <div class="alert-item important">
+              <span class="alert-date">June 28, 2023</span>
+              <h3 class="alert-title">Important: Public Consultation on Tobacco Control Regulations</h3>
+              <div class="alert-content">
+                <p>The Ministry of Health has announced a public consultation on proposed amendments to tobacco control regulations. The consultation period will run from July 1 to August 15, 2023.</p>
+                <p>VAST-Ghana encourages all stakeholders to participate in this important process. We will be hosting a webinar on July 10 to discuss the proposed changes and help prepare submissions.</p>
+              </div>
+              <div class="alert-footer">
+                <span class="alert-category">Important Alert</span>
+                <a href="#" class="read-more">Read Full Alert <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <!-- Alert Item - Standard -->
+            <div class="alert-item standard">
+              <span class="alert-date">June 10, 2023</span>
+              <h3 class="alert-title">New Research: E-cigarette Use Among Youth in Ghana</h3>
+              <div class="alert-content">
+                <p>A new study published in the Journal of Public Health in Africa shows alarming rates of e-cigarette use among youth in urban areas of Ghana. The research indicates that 15% of secondary school students in Accra have tried e-cigarettes, with 7% reporting regular use.</p>
+                <p>This data underscores the urgent need for stronger regulations on novel tobacco products and targeted education campaigns.</p>
+              </div>
+              <div class="alert-footer">
+                <span class="alert-category">Research Alert</span>
+                <a href="#" class="read-more">Read Full Alert <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <!-- Alert Item - Important -->
+            <div class="alert-item important">
+              <span class="alert-date">May 25, 2023</span>
+              <h3 class="alert-title">Important: Tobacco Industry Interference in Policy Development</h3>
+              <div class="alert-content">
+                <p>VAST-Ghana has documented evidence of tobacco industry representatives attempting to influence the development of new public health policies through third-party organizations and consultants.</p>
+                <p>We remind all government officials and policymakers of their obligations under Article 5.3 of the WHO Framework Convention on Tobacco Control to protect public health policies from commercial and other vested interests of the tobacco industry.</p>
+              </div>
+              <div class="alert-footer">
+                <span class="alert-category">Important Alert</span>
+                <a href="#" class="read-more">Read Full Alert <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <!-- Alert Item - Standard -->
+            <div class="alert-item standard">
+              <span class="alert-date">May 12, 2023</span>
+              <h3 class="alert-title">Upcoming Tobacco Control Workshop for Healthcare Professionals</h3>
+              <div class="alert-content">
+                <p>VAST-Ghana, in collaboration with the Ghana Health Service, will be hosting a series of workshops for healthcare professionals on tobacco cessation counseling and support.</p>
+                <p>The workshops will take place in regional capitals throughout June and July 2023. Registration is now open for healthcare professionals interested in enhancing their skills in this important area of public health.</p>
+              </div>
+              <div class="alert-footer">
+                <span class="alert-category">Event Alert</span>
+                <a href="#" class="read-more">Read Full Alert <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <!-- Search Widget -->
+              <div class="sidebar-item">
+                <form class="search-form">
+                  <input type="text" placeholder="Search alerts...">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+
+              <!-- News Categories Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">News Categories</h3>
+                <ul>
+                  <li><a href="africa-news.html"><i class="bi bi-chevron-right"></i> Africa News</a></li>
+                  <li><a href="international-news.html"><i class="bi bi-chevron-right"></i> International News</a></li>
+                  <li><a href="tobacco-industry-news.html"><i class="bi bi-chevron-right"></i> Tobacco Industry News</a></li>
+                  <li><a href="investigations.html"><i class="bi bi-chevron-right"></i> Investigations</a></li>
+                  <li><a href="alerts.html" class="active"><i class="bi bi-chevron-right"></i> Alerts</a></li>
+                </ul>
+              </div>
+
+              <!-- Alert Categories Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Alert Categories</h3>
+                <ul>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Urgent Alerts</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Important Alerts</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Research Alerts</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Event Alerts</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Policy Alerts</a></li>
+                </ul>
+              </div>
+
+              <!-- Recent Alerts Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Recent Alerts</h3>
+                <ul>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Urgent: New Tobacco Industry Tactics Targeting Schools</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Important: Public Consultation on Tobacco Control Regulations</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> New Research: E-cigarette Use Among Youth in Ghana</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Important: Tobacco Industry Interference in Policy Development</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Upcoming Tobacco Control Workshop for Healthcare Professionals</a></li>
+                </ul>
+              </div>
+
+              <!-- Tags Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Tags</h3>
+                <div class="tag-cloud">
+                  <a href="#">Tobacco Industry</a>
+                  <a href="#">Youth</a>
+                  <a href="#">E-cigarettes</a>
+                  <a href="#">Policy</a>
+                  <a href="#">Research</a>
+                  <a href="#">Events</a>
+                  <a href="#">Workshops</a>
+                  <a href="#">Public Health</a>
+                  <a href="#">Regulations</a>
+                  <a href="#">Schools</a>
+                </div>
+              </div>
+
+              <!-- Subscribe Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Subscribe to Alerts</h3>
+                <p>Receive important alerts directly to your inbox by subscribing to our alert notification service.</p>
+                <form class="subscribe-form">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email Address">
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+              <span>VAST-Ghana</span>
+            </a>
+            <p>Vision for Accelerated Sustainable Development, Ghana (VAST-Ghana) is dedicated to promoting sustainable health and development through evidence-informed advocacy.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Focus Areas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Focus Areas</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tobacco Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Alcohol Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Road Safety</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Climate Justice</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Health Promotion</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              No. 8 Abeeku Crescent <br>
+              Accra, Ghana<br><br>
+              <strong>Phone:</strong> +233 30 393 8058<br>
+              <strong>Email:</strong> info@vast-ghana.org<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>VAST-Ghana</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Filter Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-buttons .btn');
+      const alertItems = document.querySelectorAll('.alert-item');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const filter = this.getAttribute('data-filter');
+          
+          // Show/hide alert items based on filter
+          alertItems.forEach(item => {
+            if (filter === 'all' || item.classList.contains(filter)) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Gallery - VAST-Ghana</title>
-  <meta content="Explore our comprehensive photo gallery showcasing VAST-Ghana's events, campaigns, and initiatives across Ghana and Africa." name="description">
-  <meta content="VAST-Ghana gallery, health advocacy photos, tobacco control events, NCD campaigns, Ghana health initiatives" name="keywords">
+  <title>Gallery - Vision for Accelerated Sustainable Development Ghana</title>
+  <meta content="Explore our comprehensive photo gallery showcasing Vision for Accelerated Sustainable Development Ghana's events, campaigns, and initiatives across Ghana and Africa." name="description">
+  <meta content="Vision for Accelerated Sustainable Development Ghana gallery, health advocacy photos, tobacco control events, NCD campaigns, Ghana health initiatives" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -23,6 +23,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -65,6 +66,143 @@
       margin-bottom: 40px;
     }
     
+    /* Gallery Card Styles */
+    .gallery-card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      background-color: #fff;
+    }
+    
+    .gallery-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    }
+    
+    .gallery-card-content {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+    }
+    
+    .gallery-card-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .gallery-card:hover .gallery-card-cover {
+      transform: scale(1.05);
+    }
+    
+    .image-count-badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: rgba(52, 152, 219, 0.85);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      z-index: 2;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .gallery-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.7) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 20px;
+    }
+    
+    .gallery-card:hover .gallery-overlay {
+      opacity: 1;
+    }
+    
+    .gallery-card-title {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 15px;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    
+    .view-gallery-btn {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .view-gallery-btn:hover {
+      background-color: #2980b9;
+    }
+    
+    /* Zoom indicator */
+    .zoom-indicator {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 2;
+    }
+    
+    .gallery-card:hover .zoom-indicator {
+      opacity: 1;
+    }
+    
+    /* Thumbnail Preview */
+    .thumbnail-preview {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      padding: 2px;
+      background-color: #f8f9fa;
+    }
+    
+    .thumbnail {
+      height: 60px;
+      overflow: hidden;
+    }
+    
+    .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
     .gallery-item {
       position: relative;
       overflow: hidden;
@@ -88,24 +226,6 @@
     
     .gallery-item:hover img {
       transform: scale(1.1);
-    }
-    
-    .gallery-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.7) 100%);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      display: flex;
-      align-items: flex-end;
-      padding: 20px;
-    }
-    
-    .gallery-item:hover .gallery-overlay {
-      opacity: 1;
     }
     
     .gallery-caption {
@@ -147,6 +267,8 @@
       box-shadow: 0 4px 15px rgba(0,0,0,0.2);
       transition: all 0.3s ease;
       z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
     }
     
     .back-to-top:hover {
@@ -188,24 +310,66 @@
     <div class="branding d-flex align-items-center">
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
-          <h1 class="sitename">VAST-Ghana</h1>
+          <img src="assets/img/logo.png" alt="Vision for Accelerated Sustainable Development Ghana Logo">
+          <h1 class="sitename">Vision for Accelerated Sustainable Development Ghana</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
+            <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="who-we-are.html">Who We Are</a></li>
+                <li><a href="vision-mission.html">Vision & Mission</a></li>
+                <li><a href="our-story.html">Our Story / History</a></li>
+                <li><a href="what-we-do.html">What We Do</a></li>
+                <li><a href="governance.html">Governance</a></li>
+                <li><a href="membership.html">Membership / Partnerships</a></li>
+                <li><a href="team.html">Our Team</a></li>
+              </ul>
+            </li>
             <li><a href="index.html#services">Focus Areas</a></li>
             <li class="dropdown"><a href="#"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="news.html">News</a></li>
-                <li><a href="publication.html">Publication</a></li>
-                <li><a href="media-award.html">Media Award</a></li>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
                 <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
               </ul>
             </li>
-            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li class="dropdown"><a href="#"><span>Industry Watch</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>Our Initiatives</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Call to Action</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Industry Interference Cases</a></li>
+              </ul>
+            </li>
             <li><a href="index.html#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -228,6 +392,11 @@
     <!-- Gallery Section -->
     <section class="gallery-section">
       <div class="container">
+        
+        <!-- Back to Top Button -->
+        <button class="back-to-top" onclick="scrollToTop()">
+          <i class="bi bi-arrow-up"></i>
+        </button>
         <!-- Gallery content will be populated by JavaScript -->
         <div id="gallery-container"></div>
       </div>
@@ -240,9 +409,9 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">VAST-Ghana</span>
+            <span class="sitename">Vision for Accelerated Sustainable Development Ghana</span>
           </a>
-          <p class="pt-3">Vision for Alternative Development (VAST-Ghana) is a leading health advocacy organization dedicated to promoting evidence-based policies for tobacco control, alcohol harm reduction, and climate justice in Ghana and across Africa.</p>
+          <p class="pt-3">Vision for Accelerated Sustainable Development Ghana is a leading health advocacy organization dedicated to promoting evidence-based policies for tobacco control, alcohol harm reduction, and climate justice in Ghana and across Africa.</p>
           <div class="footer-contact pt-3">
             <p><strong>Address:</strong> Madina Firestone, Accra<br>
             GPS: GM-017-3682</p>
@@ -286,29 +455,24 @@
           <ul>
             <li><a href="publication.html">Research Publications</a></li>
             <li><a href="#">Policy Briefs</a></li>
-            <li><a href="#">News & Updates</a></li>
+            <li><a href="news.html">News & Updates</a></li>
             <li><a href="#">Annual Reports</a></li>
-            <li><a href="#">Media Center</a></li>
+            <li><a href="index.html#media-centre">Media Center</a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vision for Alternative Development (VAST-Ghana)</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vision for Accelerated Sustainable Development Ghana</strong> <span>All Rights Reserved</span></p>
     </div>
 
-  </footer>
+  </footer><!-- End Footer -->
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -317,96 +481,61 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- Gallery JavaScript -->
   <script>
-    // Gallery data - organized by folder names
+    // Gallery Data - Categories and Images
     const galleryData = {
-      "6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance": [
+      "6th National High Level Meeting on NCDs 2023": [
         "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg",
         "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_2_IMG_7464-scaled.jpg",
         "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_3_IMG_7460-scaled.jpg",
         "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_4_IMG_7458-scaled.jpg",
         "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_5_IMG_7456-scaled.jpg",
-        "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_6_IMG_7455-scaled.jpg",
-        "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_7_IMG_7449-scaled.jpg",
-        "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_8_IMG_7445-scaled.jpg"
+        "assets/img/main-gallery/6th National High Level Meeting on NCDs 2023 – Ghana NCD Alliance/imgi_6_IMG_7455-scaled.jpg"
       ],
-      "CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance": [
+      "CHMC Review Meeting 2024 – Ashanti Region": [
+        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_2_WhatsApp-Image-2025-01-09-at-18.25.39-5.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_3_WhatsApp-Image-2025-01-09-at-18.25.39-6.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_4_WhatsApp-Image-2025-01-09-at-18.25.40-1.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_5_WhatsApp-Image-2025-01-09-at-18.25.40-2.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.25.40-4.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_7_WhatsApp-Image-2025-01-09-at-18.25.40-7.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_8_WhatsApp-Image-2025-01-09-at-18.25.40-3.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_9_WhatsApp-Image-2025-01-09-at-18.25.40-6.jpg"
+        "assets/img/main-gallery/CHMC Review Meeting 2024 – Ashanti Region (Adansi Akrofuom) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.25.40-4.jpg"
       ],
-      "CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance": [
+      "CHMC Review Meeting 2024 – Greater Accra": [
+        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_2_IMG_7034.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_3_IMG_7040.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_4_IMG_7033.jpg",
         "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_5_IMG_7028.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_6_IMG_7030_(1).jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_7_IMG_7052_(1).jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_8_IMG_7058.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_9_IMG_7043.jpg"
+        "assets/img/main-gallery/CHMC Review Meeting 2024- Greater Accra (Ngleshie Amanfro) – Ghana NCD Alliance/imgi_6_IMG_7030_(1).jpg"
       ],
-      "CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance": [
+      "CHMC Review Meeting – Greater Accra (Avenor)": [
+        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg",
         "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_2_WhatsApp-Image-2025-01-09-at-18.10.30-10.jpg",
         "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_3_WhatsApp-Image-2025-01-09-at-18.10.30-6.jpg",
         "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_4_WhatsApp-Image-2025-01-09-at-18.10.30-7.jpg",
         "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_5_WhatsApp-Image-2025-01-09-at-18.10.30-8.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.10.30-9.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_7_WhatsApp-Image-2025-01-09-at-18.10.30-4.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_8_WhatsApp-Image-2025-01-09-at-18.10.30-5.jpg",
-        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_9_WhatsApp-Image-2025-01-09-at-18.10.30-2.jpg"
+        "assets/img/main-gallery/CHMC Review Meeting- Greater Accra (Avenor) – Ghana NCD Alliance/imgi_6_WhatsApp-Image-2025-01-09-at-18.10.30-9.jpg"
       ],
-      "CSOs Planning and Review Meeting – Ghana NCD Alliance": [
+      "CSOs Planning and Review Meeting": [
+        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_1_GhNCDA-logo.jpg",
         "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_2_IMG_7007.jpg",
         "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_3_IMG_6764.jpg",
         "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_4_IMG_6774.jpg",
         "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_5_IMG_6775.jpg",
-        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_6_IMG_6765.jpg",
-        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_7_IMG_6781.jpg",
-        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_8_IMG_6783.jpg",
-        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_9_IMG_6810.jpg"
+        "assets/img/main-gallery/CSOs Planning and Review Meeting – Ghana NCD Alliance/imgi_6_IMG_6765.jpg"
       ],
-      "Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance": [
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_2_IMG_7875.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_3_IMG_7887.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_4_IMG_7894.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_5_IMG_7874.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_6_IMG_7891.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_7_IMG_7896.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_8_IMG_7901.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_9_IMG_7903.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_10_IMG_7909.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_11_IMG_7912.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_12_IMG_7914.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_13_IMG_7902.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_14_IMG_7915.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_15_IMG_7916.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_16_IMG_7923.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_17_IMG_7920.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_18_IMG_7930.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_19_IMG_7932.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_20_IMG_7935.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_21_IMG_7941.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_22_IMG_7926.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_23_IMG_7946.jpg",
+      "Capacity Building Seminar for Media Professional, CSOs and Persons Living with NCDs": [
+        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_23_IMG_7945.jpg",
         "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_24_IMG_7947.jpg",
         "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_25_IMG_7936.jpg",
         "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_26_IMG_7961.jpg",
         "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_27_IMG_7956.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_28_IMG_7969.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_29_IMG_7950.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_30_IMG_7971.jpg",
-        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_31_IMG_7948.jpg"
+        "assets/img/main-gallery/Capacity Buidling Seminar for Media Professional, CSOs and Persons Living with NCDs ahead of the 4th UN HLM 2025 – Ghana NCD Alliance/imgi_28_IMG_7969.jpg"
       ]
 
     }
 
-    // Function to create gallery sections
+    // Function to create gallery sections with group cards
     function createGallery() {
       const container = document.getElementById('gallery-container');
       
@@ -421,41 +550,84 @@
         categoryTitle.textContent = category;
         categorySection.appendChild(categoryTitle);
         
-        // Create grid for images
+        // Create grid for group cards
         const grid = document.createElement('div');
         grid.className = 'gallery-grid';
         
-        // Add images to grid
-        images.forEach((imagePath, index) => {
-          const galleryItem = document.createElement('div');
-          galleryItem.className = 'gallery-item';
-          galleryItem.setAttribute('data-aos', 'fade-up');
-          galleryItem.setAttribute('data-aos-delay', index * 100);
-          
-          const img = document.createElement('img');
-          img.src = imagePath;
-          img.alt = `${category} - Image ${index + 1}`;
-          img.loading = 'lazy';
-          
-          const overlay = document.createElement('div');
-          overlay.className = 'gallery-overlay';
-          
-          const caption = document.createElement('div');
-          caption.className = 'gallery-caption';
-          caption.textContent = `${category}`;
-          
-          overlay.appendChild(caption);
-          galleryItem.appendChild(img);
-          galleryItem.appendChild(overlay);
-          
-          // Add click event for lightbox
-          galleryItem.addEventListener('click', () => {
-            openLightbox(imagePath, category);
-          });
-          
-          grid.appendChild(galleryItem);
+        // Create a single group card for this category
+        const galleryCard = document.createElement('div');
+        galleryCard.className = 'gallery-card';
+        galleryCard.setAttribute('data-aos', 'fade-up');
+        
+        // Create card content
+        const cardContent = document.createElement('div');
+        cardContent.className = 'gallery-card-content';
+        
+        // Add cover image (first image in the group)
+        const coverImg = document.createElement('img');
+        coverImg.src = images[0];
+        coverImg.alt = `${category} - Cover Image`;
+        coverImg.loading = 'lazy';
+        coverImg.className = 'gallery-card-cover';
+        
+        // Add image count badge
+        const countBadge = document.createElement('div');
+        countBadge.className = 'image-count-badge';
+        countBadge.textContent = `${images.length} Photos`;
+        
+        // Add card overlay
+        const overlay = document.createElement('div');
+        overlay.className = 'gallery-overlay';
+        
+        // Add card title
+        const cardTitle = document.createElement('div');
+        cardTitle.className = 'gallery-card-title';
+        cardTitle.textContent = category;
+        
+        // Add view gallery button
+        const viewBtn = document.createElement('button');
+        viewBtn.className = 'view-gallery-btn';
+        viewBtn.innerHTML = '<i class="bi bi-images"></i> View Gallery';
+        
+        // Add zoom indicator
+        const zoomIndicator = document.createElement('div');
+        zoomIndicator.className = 'zoom-indicator';
+        zoomIndicator.innerHTML = '<i class="bi bi-zoom-in"></i> Zoom available';
+        
+        // Append elements to card
+        overlay.appendChild(cardTitle);
+        overlay.appendChild(viewBtn);
+        cardContent.appendChild(coverImg);
+        cardContent.appendChild(countBadge);
+        cardContent.appendChild(zoomIndicator);
+        cardContent.appendChild(overlay);
+        galleryCard.appendChild(cardContent);
+        
+        // Create thumbnail preview
+        const thumbnailPreview = document.createElement('div');
+        thumbnailPreview.className = 'thumbnail-preview';
+        
+        // Add up to 4 thumbnail images
+        const previewCount = Math.min(4, images.length);
+        for (let i = 0; i < previewCount; i++) {
+          const thumb = document.createElement('div');
+          thumb.className = 'thumbnail';
+          const thumbImg = document.createElement('img');
+          thumbImg.src = images[i];
+          thumbImg.alt = `${category} - Thumbnail ${i + 1}`;
+          thumbImg.loading = 'lazy';
+          thumb.appendChild(thumbImg);
+          thumbnailPreview.appendChild(thumb);
+        }
+        
+        galleryCard.appendChild(thumbnailPreview);
+        
+        // Add click event to open all images in lightbox
+        galleryCard.addEventListener('click', () => {
+          openGroupLightbox(images, category);
         });
         
+        grid.appendChild(galleryCard);
         categorySection.appendChild(grid);
         container.appendChild(categorySection);
       }
@@ -469,8 +641,47 @@
             href: imagePath,
             title: caption
           }
-        ]
+        ],
+        zoomable: true,
+        draggable: true,
+        closeOnOutsideClick: true,
+        slideEffect: 'fade',
+        height: '90vh',
+        width: '90vw'
       });
+      lightbox.open();
+    }
+    
+    // Function to open lightbox gallery for a group of images
+    function openGroupLightbox(images, categoryTitle) {
+      const elements = images.map((imagePath, index) => {
+        return {
+          href: imagePath,
+          title: `${categoryTitle} - Image ${index + 1} of ${images.length}`
+        };
+      });
+      
+      const lightbox = GLightbox({
+        elements: elements,
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: false,
+        zoomable: true,
+        draggable: true,
+        closeOnOutsideClick: true,
+        slideEffect: 'fade',
+        height: '90vh',
+        width: '90vw',
+        plyr: {
+          css: 'https://cdn.plyr.io/3.6.8/plyr.css',
+          js: 'https://cdn.plyr.io/3.6.8/plyr.js',
+          config: {
+            ratio: '16:9',
+            fullscreen: { enabled: true, iosNative: true }
+          }
+        }
+      });
+      
       lightbox.open();
     }
 
@@ -489,12 +700,14 @@
       // Show/hide back to top button
       window.addEventListener('scroll', () => {
         const backToTopBtn = document.querySelector('.back-to-top');
-        if (window.scrollY > 300) {
-          backToTopBtn.style.opacity = '1';
-          backToTopBtn.style.visibility = 'visible';
-        } else {
-          backToTopBtn.style.opacity = '0';
-          backToTopBtn.style.visibility = 'hidden';
+        if (backToTopBtn) {
+          if (window.scrollY > 300) {
+            backToTopBtn.style.opacity = '1';
+            backToTopBtn.style.visibility = 'visible';
+          } else {
+            backToTopBtn.style.opacity = '0';
+            backToTopBtn.style.visibility = 'hidden';
+          }
         }
       });
       

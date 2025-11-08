@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>World No Tobacco Day 2023 - VAST-Ghana</title>
+  <meta name="description" content="VAST-Ghana's World No Tobacco Day 2023 activities, campaigns, and resources">
+  <meta name="keywords" content="WNTD 2023, World No Tobacco Day 2023, VAST-Ghana tobacco control, tobacco awareness campaign">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .wntd-hero {
+      position: relative;
+      height: 500px;
+      background-image: url('assets/img/wntd-2023-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    
+    .wntd-hero:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .wntd-hero .container {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .wntd-hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .wntd-hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      max-width: 700px;
+    }
+    
+    .wntd-hero .btn-learn-more {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 30px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .wntd-hero .btn-learn-more:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .wntd-hero .btn-learn-more i {
+      margin-left: 5px;
+    }
+    
+    .event-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .event-card .event-image {
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .event-card .event-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .event-card:hover .event-image img {
+      transform: scale(1.05);
+    }
+    
+    .event-card .event-content {
+      padding: 20px;
+    }
+    
+    .event-card .event-date {
+      display: inline-block;
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    
+    .event-card .event-title {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .event-card .event-description {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    
+    .event-card .event-location {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      color: #777;
+    }
+    
+    .event-card .event-location i {
+      margin-right: 5px;
+      color: var(--color-primary);
+    }
+    
+    .event-card .btn-details {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 20px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .event-card .btn-details:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .event-card .btn-details i {
+      margin-left: 5px;
+    }
+    
+    .resource-card {
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      background-color: #f9f9f9;
+    }
+    
+    .resource-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .resource-card .resource-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    
+    .resource-card .resource-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    
+    .resource-card .resource-description {
+      margin-bottom: 15px;
+      color: #555;
+      font-size: 14px;
+    }
+    
+    .resource-card .btn-download {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 15px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .resource-card .btn-download:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .resource-card .btn-download i {
+      margin-right: 5px;
+    }
+    
+    .theme-box {
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    
+    .theme-box h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .theme-box p {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#" class="active"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html" class="active">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">World No Tobacco Day 2023</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">WNTD</a></li>
+            <li class="current">2023</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- WNTD Hero Section -->
+    <section class="wntd-hero">
+      <div class="container">
+        <h1>World No Tobacco Day 2023</h1>
+        <p>We Need Food, Not Tobacco</p>
+        <a href="#about-wntd" class="btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- About WNTD 2023 Section -->
+    <section id="about-wntd" class="about-wntd section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>About World No Tobacco Day 2023</h2>
+            </div>
+            <div class="theme-box">
+              <h3>2023 Theme: We Need Food, Not Tobacco</h3>
+              <p>The World Health Organization's theme for World No Tobacco Day 2023 focuses on the environmental impact of tobacco growing, production, and waste, highlighting how valuable land and resources are diverted from food production to tobacco cultivation.</p>
+            </div>
+            <p>World No Tobacco Day (WNTD) is observed around the world every year on May 31. It is intended to encourage a 24-hour period of abstinence from all forms of tobacco consumption around the globe. The day is further intended to draw attention to the widespread prevalence of tobacco use and to negative health effects, which currently lead to more than 8 million deaths each year worldwide, including 1.2 million deaths from exposure to second-hand smoke.</p>
+            <p>The 2023 campaign aims to:</p>
+            <ul>
+              <li>Raise awareness about alternative farming approaches and crops that are more sustainable than tobacco for farmers</li>
+              <li>Expose the tobacco industry's efforts to interfere with attempts to substitute tobacco growing with sustainable crops</li>
+              <li>Highlight the industry's efforts to "greenwash" its reputation by promoting activities under the guise of corporate social responsibility</li>
+            </ul>
+            <p>VAST-Ghana has organized several activities and events to mark this important day and raise awareness about the harmful effects of tobacco use and the environmental impact of tobacco cultivation.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Key Facts</h3>
+                <ul>
+                  <li>Tobacco kills up to half of its users</li>
+                  <li>Tobacco kills more than 8 million people each year</li>
+                  <li>Over 1.2 million deaths are the result of non-smokers being exposed to second-hand smoke</li>
+                  <li>Around 80% of the world's 1.3 billion tobacco users live in low- and middle-income countries</li>
+                  <li>Tobacco farming uses 200,000 hectares of land in Africa that could be used to grow food</li>
+                </ul>
+              </div>
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">WNTD Archives</h3>
+                <ul>
+                  <li><a href="wntd-2022.html">WNTD 2022: Tobacco's Threat to Our Environment</a></li>
+                  <li><a href="wntd-2021.html">WNTD 2021: Commit to Quit</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WNTD 2023 Events Section -->
+    <section id="wntd-events" class="wntd-events section bg-light-subtle">
+      <div class="container">
+        <div class="section-title">
+          <h2>WNTD 2023 Events</h2>
+          <p>Activities organized by VAST-Ghana to mark World No Tobacco Day 2023</p>
+        </div>
+
+        <div class="row">
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-1.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 31, 2023</div>
+                <h3 class="event-title">National Symposium on Tobacco Control</h3>
+                <p class="event-description">A gathering of policymakers, health professionals, and civil society organizations to discuss tobacco control policies and strategies in Ghana.</p>
+                <div class="event-location">
+                  <i class="bi bi-geo-alt"></i> Accra International Conference Center
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-2.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 29-30, 2023</div>
+                <h3 class="event-title">School Outreach Program</h3>
+                <p class="event-description">Educational sessions in schools across Accra to raise awareness about the dangers of tobacco use among young people.</p>
+                <div class="event-location">
+                  <i class="bi bi-geo-alt"></i> Various Schools in Accra
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-3.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 27, 2023</div>
+                <h3 class="event-title">Community Health Fair</h3>
+                <p class="event-description">A health fair offering free health screenings, counseling services for tobacco cessation, and educational materials on tobacco control.</p>
+                <div class="event-location">
+                  <i class="bi bi-geo-alt"></i> Makola Market, Accra
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WNTD 2023 Resources Section -->
+    <section id="wntd-resources" class="wntd-resources section">
+      <div class="container">
+        <div class="section-title">
+          <h2>WNTD 2023 Resources</h2>
+          <p>Educational materials and resources for World No Tobacco Day 2023</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <h3 class="resource-title">WNTD 2023 Fact Sheet</h3>
+              <p class="resource-description">Key facts and statistics about tobacco's impact on food security and the environment.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PDF</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <h3 class="resource-title">Tobacco and Food Security Report</h3>
+              <p class="resource-description">A comprehensive report on how tobacco cultivation affects food security in Ghana.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PDF</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-image"></i>
+              </div>
+              <h3 class="resource-title">WNTD 2023 Posters</h3>
+              <p class="resource-description">Printable posters and infographics for World No Tobacco Day 2023 campaign.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download ZIP</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-text"></i>
+              </div>
+              <h3 class="resource-title">Social Media Toolkit</h3>
+              <p class="resource-description">Ready-to-use social media posts, graphics, and hashtags for WNTD 2023.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download ZIP</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-slides"></i>
+              </div>
+              <h3 class="resource-title">Presentation Slides</h3>
+              <p class="resource-description">Educational presentation slides on tobacco's impact on food security.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PPT</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <h3 class="resource-title">Campaign Video</h3>
+              <p class="resource-description">Short video highlighting the importance of choosing food over tobacco cultivation.</p>
+              <a href="#" class="btn-download"><i class="bi bi-play"></i> Watch Video</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Coverage Section -->
+    <section id="media-coverage" class="media-coverage section bg-light-subtle">
+      <div class="container">
+        <div class="section-title">
+          <h2>Media Coverage</h2>
+          <p>News and media coverage of VAST-Ghana's WNTD 2023 activities</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="media-item">
+              <h3>Ghana News Agency: "VAST-Ghana Calls for Sustainable Alternatives to Tobacco Farming"</h3>
+              <p>May 31, 2023</p>
+              <p>Coverage of VAST-Ghana's national symposium and the call for policies to support farmers in transitioning from tobacco to food crops.</p>
+              <a href="#" class="read-more">Read Full Article <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="media-item">
+              <h3>Daily Graphic: "World No Tobacco Day: Experts Discuss Food Security Implications"</h3>
+              <p>June 1, 2023</p>
+              <p>Report on the panel discussion at VAST-Ghana's symposium highlighting the impact of tobacco cultivation on food security in Ghana.</p>
+              <a href="#" class="read-more">Read Full Article <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+              <span>VAST-Ghana</span>
+            </a>
+            <p>Vision for Accelerated Sustainable Development, Ghana (VAST-Ghana) is dedicated to promoting sustainable health and development through evidence-informed advocacy.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Focus Areas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Focus Areas</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tobacco Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Alcohol Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Road Safety</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Climate Justice</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Health Promotion</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              No. 8 Abeeku Crescent <br>
+              Accra, Ghana<br><br>
+              <strong>Phone:</strong> +233 30 393 8058<br>
+              <strong>Email:</strong> info@vast-ghana.org<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>VAST-Ghana</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

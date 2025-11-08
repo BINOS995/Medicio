@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>World No Tobacco Day 2021 - Vision for Accelerated Sustainable Development Ghana</title>
+  <meta name="description" content="Vision for Accelerated Sustainable Development Ghana's World No Tobacco Day 2021 activities, campaigns, and resources">
+  <meta name="keywords" content="WNTD 2021, World No Tobacco Day 2021, Vision for Accelerated Sustainable Development Ghana tobacco control, commit to quit">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .wntd-hero {
+      position: relative;
+      height: 500px;
+      background-image: url('assets/img/wntd-2021-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    
+    .wntd-hero:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .wntd-hero .container {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .wntd-hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .wntd-hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      max-width: 700px;
+    }
+    
+    .wntd-hero .btn-learn-more {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 30px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .wntd-hero .btn-learn-more:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .wntd-hero .btn-learn-more i {
+      margin-left: 5px;
+    }
+    
+    .event-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .event-card .event-image {
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .event-card .event-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .event-card:hover .event-image img {
+      transform: scale(1.05);
+    }
+    
+    .event-card .event-content {
+      padding: 20px;
+    }
+    
+    .event-card .event-date {
+      display: inline-block;
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    
+    .event-card .event-title {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .event-card .event-description {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    
+    .event-card .event-location {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      color: #777;
+    }
+    
+    .event-card .event-location i {
+      margin-right: 5px;
+      color: var(--color-primary);
+    }
+    
+    .event-card .btn-details {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 20px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .event-card .btn-details:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .event-card .btn-details i {
+      margin-left: 5px;
+    }
+    
+    .resource-card {
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      background-color: #f9f9f9;
+    }
+    
+    .resource-card:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .resource-card .resource-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    
+    .resource-card .resource-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    
+    .resource-card .resource-description {
+      margin-bottom: 15px;
+      color: #555;
+      font-size: 14px;
+    }
+    
+    .resource-card .btn-download {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 15px;
+      border-radius: 50px;
+      color: #fff;
+      background-color: var(--color-primary);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .resource-card .btn-download:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .resource-card .btn-download i {
+      margin-right: 5px;
+    }
+    
+    .theme-box {
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    
+    .theme-box h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .theme-box p {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    
+    .quit-steps {
+      margin-top: 30px;
+    }
+    
+    .quit-step {
+      display: flex;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .quit-step .step-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      background-color: var(--color-primary);
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    
+    .quit-step .step-content {
+      padding: 20px;
+      flex: 1;
+    }
+    
+    .quit-step .step-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    
+    .quit-step .step-description {
+      color: #555;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="Vision for Accelerated Sustainable Development Ghana Logo">
+          <h1 class="sitename">Vision for Accelerated Sustainable Development Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#" class="active"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html" class="active">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">World No Tobacco Day 2021</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">WNTD</a></li>
+            <li class="current">2021</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- WNTD Hero Section -->
+    <section class="wntd-hero">
+      <div class="container">
+        <h1>World No Tobacco Day 2021</h1>
+        <p>Commit to Quit</p>
+        <a href="#about-wntd" class="btn-learn-more">Learn More <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- About WNTD 2021 Section -->
+    <section id="about-wntd" class="about-wntd section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>About World No Tobacco Day 2021</h2>
+            </div>
+            <div class="theme-box">
+              <h3>2021 Theme: Commit to Quit</h3>
+              <p>The World Health Organization's theme for World No Tobacco Day 2021 is "Commit to Quit." This campaign aims to support 100 million people worldwide in their efforts to quit tobacco through various initiatives. The COVID-19 pandemic has led to millions of tobacco users wanting to quit, and this campaign will help empower them to make a successful quit attempt.</p>
+            </div>
+            <p>World No Tobacco Day (WNTD) is observed around the world every year on May 31. It is intended to encourage a 24-hour period of abstinence from all forms of tobacco consumption around the globe. The day is further intended to draw attention to the widespread prevalence of tobacco use and to negative health effects, which currently lead to more than 8 million deaths each year worldwide, including 1.2 million deaths from exposure to second-hand smoke.</p>
+            <p>The 2021 campaign aims to:</p>
+            <ul>
+              <li>Highlight the health benefits of quitting tobacco</li>
+              <li>Inspire tobacco users to quit through cessation campaigns</li>
+              <li>Promote access to cessation services</li>
+              <li>Raise awareness about tobacco industry tactics</li>
+              <li>Empower tobacco users to make successful quit attempts through "quit & win" initiatives</li>
+            </ul>
+            <p>Vision for Accelerated Sustainable Development Ghana has organized several activities and events to mark this important day and support tobacco users in their journey to quit.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Benefits of Quitting</h3>
+                <ul>
+                  <li>Within 20 minutes: Heart rate and blood pressure drop</li>
+                  <li>Within 12 hours: Carbon monoxide level in blood drops to normal</li>
+                  <li>2-12 weeks: Circulation improves and lung function increases</li>
+                  <li>1-9 months: Coughing and shortness of breath decrease</li>
+                  <li>1 year: Risk of coronary heart disease is half that of a smoker</li>
+                  <li>5-15 years: Stroke risk reduced to that of a non-smoker</li>
+                  <li>10 years: Lung cancer death rate is about half that of a smoker</li>
+                  <li>15 years: Risk of coronary heart disease is the same as a non-smoker</li>
+                </ul>
+              </div>
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">WNTD Archives</h3>
+                <ul>
+                  <li><a href="wntd-2023.html">WNTD 2023: We Need Food, Not Tobacco</a></li>
+                  <li><a href="wntd-2022.html">WNTD 2022: Tobacco's Threat to Our Environment</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quit Steps Section -->
+    <section id="quit-steps" class="quit-steps-section section bg-light-subtle">
+      <div class="container">
+        <div class="section-title">
+          <h2>Steps to Quit Tobacco</h2>
+          <p>A guide to help you on your journey to quit tobacco</p>
+        </div>
+
+        <div class="quit-steps">
+          <div class="quit-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Prepare to Quit</h3>
+              <p class="step-description">Set a quit date within the next two weeks. Tell friends, family, and coworkers about your plan. Remove cigarettes and other tobacco products from your home, car, and workplace. Anticipate challenges, especially during the first few weeks.</p>
+            </div>
+          </div>
+
+          <div class="quit-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Get Support</h3>
+              <p class="step-description">Seek support from healthcare providers, counseling services, telephone quitlines, or support groups. Consider using nicotine replacement therapy or other medications that can help you quit.</p>
+            </div>
+          </div>
+
+          <div class="quit-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Learn New Skills and Behaviors</h3>
+              <p class="step-description">Distract yourself from tobacco cravings with physical activity. Practice relaxation techniques to manage stress. Change your routine to avoid triggers associated with smoking.</p>
+            </div>
+          </div>
+
+          <div class="quit-step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3 class="step-title">Be Prepared for Difficult Situations</h3>
+              <p class="step-description">Avoid alcohol as it can trigger cravings. Be careful around other tobacco users. Clean your house and car to remove the smell of smoke. Identify and plan for situations that may trigger urges to smoke.</p>
+            </div>
+          </div>
+
+          <div class="quit-step">
+            <div class="step-number">5</div>
+            <div class="step-content">
+              <h3 class="step-title">Stay Committed</h3>
+              <p class="step-description">Remember the health and financial benefits of quitting. If you slip, don't give up. Learn from the experience and recommit to your goal. Celebrate your successes and milestones.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WNTD 2021 Events Section -->
+    <section id="wntd-events" class="wntd-events section">
+      <div class="container">
+        <div class="section-title">
+          <h2>WNTD 2021 Events</h2>
+          <p>Activities organized by Vision for Accelerated Sustainable Development Ghana to mark World No Tobacco Day 2021</p>
+        </div>
+
+        <div class="row">
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-1.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 31, 2021</div>
+                <h3 class="event-title">Quit Tobacco Virtual Summit</h3>
+                <p class="event-description">A virtual summit bringing together health experts, former smokers, and cessation specialists to discuss effective strategies for quitting tobacco.</p>
+                <div class="event-location">
+                  <i class="bi bi-laptop"></i> Online Event
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-2.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 28-30, 2021</div>
+                <h3 class="event-title">Free Cessation Counseling</h3>
+                <p class="event-description">Three days of free cessation counseling services provided by healthcare professionals to help tobacco users develop personalized quit plans.</p>
+                <div class="event-location">
+                  <i class="bi bi-geo-alt"></i> Various Health Centers in Accra
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="event-card">
+              <div class="event-image">
+                <img src="assets/img/wntd-event-3.jpg" alt="Event Image">
+              </div>
+              <div class="event-content">
+                <div class="event-date">May 31, 2021</div>
+                <h3 class="event-title">Commit to Quit Challenge</h3>
+                <p class="event-description">A 100-day challenge for tobacco users to quit, with support groups, regular check-ins, and prizes for those who successfully quit.</p>
+                <div class="event-location">
+                  <i class="bi bi-geo-alt"></i> Nationwide
+                </div>
+                <a href="#" class="btn-details">View Details <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WNTD 2021 Resources Section -->
+    <section id="wntd-resources" class="wntd-resources section bg-light-subtle">
+      <div class="container">
+        <div class="section-title">
+          <h2>WNTD 2021 Resources</h2>
+          <p>Educational materials and resources for World No Tobacco Day 2021</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <h3 class="resource-title">Quit Tobacco Guide</h3>
+              <p class="resource-description">A comprehensive guide with strategies and tips to help you quit tobacco successfully.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PDF</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <h3 class="resource-title">WNTD 2021 Fact Sheet</h3>
+              <p class="resource-description">Key facts and statistics about tobacco use and the benefits of quitting.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PDF</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-image"></i>
+              </div>
+              <h3 class="resource-title">WNTD 2021 Posters</h3>
+              <p class="resource-description">Printable posters and infographics for World No Tobacco Day 2021 campaign.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download ZIP</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-journal-text"></i>
+              </div>
+              <h3 class="resource-title">Quit Journal Template</h3>
+              <p class="resource-description">A printable journal template to track your quit journey, triggers, and progress.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PDF</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-file-earmark-slides"></i>
+              </div>
+              <h3 class="resource-title">Presentation Slides</h3>
+              <p class="resource-description">Educational presentation slides on tobacco cessation strategies.</p>
+              <a href="#" class="btn-download"><i class="bi bi-download"></i> Download PPT</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <h3 class="resource-title">Quit Success Stories</h3>
+              <p class="resource-description">Video testimonials from people who successfully quit tobacco.</p>
+              <a href="#" class="btn-download"><i class="bi bi-play"></i> Watch Video</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Coverage Section -->
+    <section id="media-coverage" class="media-coverage section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Media Coverage</h2>
+          <p>News and media coverage of Vision for Accelerated Sustainable Development Ghana's WNTD 2021 activities</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="media-item">
+              <h3>Ghana News Agency: "Vision for Accelerated Sustainable Development Ghana Launches 'Commit to Quit' Campaign on World No Tobacco Day"</h3>
+              <p>May 31, 2021</p>
+              <p>Coverage of Vision for Accelerated Sustainable Development Ghana's virtual summit and the launch of the 100-day Commit to Quit Challenge.</p>
+              <a href="#" class="read-more">Read Full Article <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="media-item">
+              <h3>Daily Graphic: "Health Experts Provide Free Cessation Counseling for Tobacco Users"</h3>
+              <p>May 29, 2021</p>
+              <p>Report on Vision for Accelerated Sustainable Development Ghana's free cessation counseling services provided at various health centers in Accra.</p>
+              <a href="#" class="read-more">Read Full Article <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Vision for Accelerated Sustainable Development Ghana</span>
+          </a>
+          <p class="pt-3">Vision for Accelerated Sustainable Development Ghana is a leading health advocacy organization dedicated to promoting evidence-based policies for tobacco control, alcohol harm reduction, and climate justice in Ghana and across Africa.</p>
+          <div class="footer-contact pt-3">
+            <p><strong>Address:</strong> Madina Firestone, Accra<br>
+            GPS: GM-017-3682</p>
+            <p class="mt-2"><strong>Phone:</strong> +233 30 393 8058</p>
+            <p><strong>Email:</strong> info@vastgh.org</p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/vastghana" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://web.facebook.com/vastghana" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/vastghana" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/vision-for-accelerated-sustainable-development-ghana" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@Vast_Ghana" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#services">Our Work</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="publication.html">Publications</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Our Focus Areas</h4>
+          <ul>
+            <li><a href="index.html#services">Tobacco Control Advocacy</a></li>
+            <li><a href="index.html#services">Alcohol Harm Reduction</a></li>
+            <li><a href="index.html#services">Climate Justice & Health</a></li>
+            <li><a href="index.html#services">Health Policy Research</a></li>
+            <li><a href="index.html#services">Community Engagement</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="publication.html">Research Publications</a></li>
+            <li><a href="#">Policy Briefs</a></li>
+            <li><a href="news.html">News & Updates</a></li>
+            <li><a href="#">Annual Reports</a></li>
+            <li><a href="index.html#media-centre">Media Center</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vision for Accelerated Sustainable Development Ghana</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Investigations - VAST-Ghana</title>
+  <meta name="description" content="In-depth investigations into tobacco industry practices and public health issues">
+  <meta name="keywords" content="investigations, tobacco industry, VAST-Ghana, public health, investigative journalism">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="32x32">
+  <link href="assets/img/logo2.png" rel="icon" type="image/png" sizes="16x16">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .investigation-item {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 40px;
+    }
+    
+    .investigation-item:last-child {
+      border-bottom: none;
+    }
+    
+    .investigation-item .investigation-image {
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    
+    .investigation-item .investigation-image img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+    
+    .investigation-item:hover .investigation-image img {
+      transform: scale(1.03);
+    }
+    
+    .investigation-item .investigation-date {
+      display: inline-block;
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    
+    .investigation-item .investigation-title {
+      font-size: 26px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    
+    .investigation-item .investigation-title a {
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .investigation-item .investigation-title a:hover {
+      color: var(--color-primary);
+    }
+    
+    .investigation-item .investigation-excerpt {
+      margin-bottom: 15px;
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    
+    .investigation-item .read-more {
+      display: inline-flex;
+      align-items: center;
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .investigation-item .read-more:hover {
+      color: var(--color-primary-dark);
+    }
+    
+    .investigation-item .read-more i {
+      margin-left: 5px;
+    }
+    
+    .sidebar-item {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+    }
+    
+    .sidebar-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .sidebar-item ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-item ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .sidebar-item ul li:last-child {
+      border-bottom: none;
+    }
+    
+    .sidebar-item ul li a {
+      color: #555;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+    }
+    
+    .sidebar-item ul li a:hover {
+      color: var(--color-primary);
+    }
+    
+    .sidebar-item ul li a i {
+      margin-right: 8px;
+      font-size: 12px;
+    }
+    
+    .search-form {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .search-form input {
+      width: 100%;
+      padding: 10px 15px;
+      padding-right: 50px;
+      border: 1px solid #ddd;
+      border-radius: 50px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .search-form input:focus {
+      border-color: var(--color-primary);
+      outline: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    
+    .search-form button {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      background-color: var(--color-primary);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .search-form button:hover {
+      background-color: var(--color-primary-dark);
+    }
+    
+    .tag-cloud a {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: #eee;
+      color: #555;
+      border-radius: 30px;
+      font-size: 13px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .tag-cloud a:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .pagination {
+      margin-top: 50px;
+      justify-content: center;
+    }
+    
+    .pagination .page-item .page-link {
+      color: var(--color-primary);
+      border-color: #eee;
+      margin: 0 5px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    
+    .pagination .page-item.active .page-link {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .pagination .page-item .page-link:hover {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+    
+    .investigation-meta {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: #777;
+    }
+    
+    .investigation-meta .author {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .investigation-meta .author i,
+    .investigation-meta .date i {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 8AM to 5PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us now +233 30 393 8058
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+          <h1 class="sitename">VAST-Ghana</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Focus Areas</a></li>
+            <li class="dropdown"><a href="#" class="active"><span>Media Centre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li class="dropdown"><a href="#" class="active"><span>News</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="africa-news.html">Africa News</a></li>
+                    <li><a href="international-news.html">International News</a></li>
+                    <li><a href="tobacco-industry-news.html">Tobacco Industry News</a></li>
+                    <li><a href="investigations.html" class="active">Investigations</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                  </ul>
+                </li>
+                <li><a href="publication.html">Publications</a></li>
+                <li><a href="media-award.html">Media Award 2024</a></li>
+                <li><a href="statements.html">Statements</a></li>
+                <li><a href="webinars.html">Webinars</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="useful-links.html">Useful Links</a></li>
+                <li><a href="spotlight.html">Spotlight</a></li>
+                <li><a href="toolkits.html">Toolkits</a></li>
+                <li class="dropdown"><a href="#"><span>WNTD</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="wntd-2023.html">2023</a></li>
+                    <li><a href="wntd-2022.html">2022</a></li>
+                    <li><a href="wntd-2021.html">2021</a></li>
+                  </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Investigations</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li class="current">Investigations</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Investigations Section -->
+    <section class="investigations-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <!-- Investigation Item -->
+            <div class="investigation-item">
+              <div class="investigation-image">
+                <img src="assets/img/news/investigation-1.jpg" alt="Investigation Image">
+              </div>
+              <div class="investigation-meta">
+                <span class="author"><i class="bi bi-person"></i> By Investigative Team</span>
+                <span class="date"><i class="bi bi-calendar"></i> June 10, 2023</span>
+              </div>
+              <h3 class="investigation-title"><a href="#">Uncovering Tobacco Industry's Secret Marketing to Youth in Ghana</a></h3>
+              <p class="investigation-excerpt">A six-month investigation by VAST-Ghana has revealed systematic efforts by tobacco companies to market their products to youth in Ghana, despite legal prohibitions. Through undercover reporting and document analysis, our team uncovered evidence of targeted advertising near schools, sponsorship of youth events through shell companies, and social media campaigns designed to appeal to young people.</p>
+              <a href="#" class="read-more">Read Full Investigation <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <!-- Investigation Item -->
+            <div class="investigation-item">
+              <div class="investigation-image">
+                <img src="assets/img/news/investigation-2.jpg" alt="Investigation Image">
+              </div>
+              <div class="investigation-meta">
+                <span class="author"><i class="bi bi-person"></i> By Research Department</span>
+                <span class="date"><i class="bi bi-calendar"></i> May 15, 2023</span>
+              </div>
+              <h3 class="investigation-title"><a href="#">The Hidden Cost: How Tobacco Farming Impacts Food Security in West Africa</a></h3>
+              <p class="investigation-excerpt">This in-depth investigation examines the impact of tobacco farming on food security in West African countries. Through field research in tobacco-growing regions, interviews with farmers, and analysis of agricultural data, we document how tobacco cultivation diverts land, water, and labor from food production, contributing to food insecurity in communities already vulnerable to climate change impacts.</p>
+              <a href="#" class="read-more">Read Full Investigation <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <!-- Investigation Item -->
+            <div class="investigation-item">
+              <div class="investigation-image">
+                <img src="assets/img/news/investigation-3.jpg" alt="Investigation Image">
+              </div>
+              <div class="investigation-meta">
+                <span class="author"><i class="bi bi-person"></i> By Policy Analysis Team</span>
+                <span class="date"><i class="bi bi-calendar"></i> April 5, 2023</span>
+              </div>
+              <h3 class="investigation-title"><a href="#">Following the Money: Tobacco Industry Lobbying and Political Influence in Africa</a></h3>
+              <p class="investigation-excerpt">This investigation tracks tobacco industry lobbying efforts and political influence across multiple African countries. Through analysis of public records, leaked documents, and interviews with current and former officials, we reveal the extent of industry efforts to delay, weaken, or prevent tobacco control legislation, including previously undisclosed meetings between industry representatives and policymakers.</p>
+              <a href="#" class="read-more">Read Full Investigation <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <!-- Investigation Item -->
+            <div class="investigation-item">
+              <div class="investigation-image">
+                <img src="assets/img/news/investigation-4.jpg" alt="Investigation Image">
+              </div>
+              <div class="investigation-meta">
+                <span class="author"><i class="bi bi-person"></i> By Health Research Team</span>
+                <span class="date"><i class="bi bi-calendar"></i> March 12, 2023</span>
+              </div>
+              <h3 class="investigation-title"><a href="#">The E-cigarette Epidemic: Marketing Novel Tobacco Products to African Youth</a></h3>
+              <p class="investigation-excerpt">This investigation examines the rapid growth of e-cigarette and heated tobacco product marketing in African countries. Through market research, social media analysis, and youth surveys, we document how these products are being promoted as "reduced risk" despite limited regulation and growing evidence of health concerns, particularly among young people who have never smoked conventional cigarettes.</p>
+              <a href="#" class="read-more">Read Full Investigation <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <!-- Search Widget -->
+              <div class="sidebar-item">
+                <form class="search-form">
+                  <input type="text" placeholder="Search investigations...">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+
+              <!-- News Categories Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">News Categories</h3>
+                <ul>
+                  <li><a href="africa-news.html"><i class="bi bi-chevron-right"></i> Africa News</a></li>
+                  <li><a href="international-news.html"><i class="bi bi-chevron-right"></i> International News</a></li>
+                  <li><a href="tobacco-industry-news.html"><i class="bi bi-chevron-right"></i> Tobacco Industry News</a></li>
+                  <li><a href="investigations.html" class="active"><i class="bi bi-chevron-right"></i> Investigations</a></li>
+                  <li><a href="alerts.html"><i class="bi bi-chevron-right"></i> Alerts</a></li>
+                </ul>
+              </div>
+
+              <!-- Investigation Topics Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Investigation Topics</h3>
+                <ul>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Youth Marketing</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Tobacco Farming</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Industry Lobbying</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Novel Products</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Front Groups</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Environmental Impact</a></li>
+                </ul>
+              </div>
+
+              <!-- Recent Investigations Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Recent Investigations</h3>
+                <ul>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Uncovering Tobacco Industry's Secret Marketing to Youth in Ghana</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> The Hidden Cost: How Tobacco Farming Impacts Food Security in West Africa</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> Following the Money: Tobacco Industry Lobbying and Political Influence in Africa</a></li>
+                  <li><a href="#"><i class="bi bi-chevron-right"></i> The E-cigarette Epidemic: Marketing Novel Tobacco Products to African Youth</a></li>
+                </ul>
+              </div>
+
+              <!-- Tags Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Tags</h3>
+                <div class="tag-cloud">
+                  <a href="#">Investigation</a>
+                  <a href="#">Tobacco Industry</a>
+                  <a href="#">Youth Marketing</a>
+                  <a href="#">Food Security</a>
+                  <a href="#">Lobbying</a>
+                  <a href="#">E-cigarettes</a>
+                  <a href="#">Ghana</a>
+                  <a href="#">West Africa</a>
+                  <a href="#">Policy</a>
+                  <a href="#">Public Health</a>
+                </div>
+              </div>
+
+              <!-- Subscribe Widget -->
+              <div class="sidebar-item">
+                <h3 class="sidebar-title">Subscribe to Our Newsletter</h3>
+                <form class="subscribe-form">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email Address">
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="VAST-Ghana Logo">
+              <span>VAST-Ghana</span>
+            </a>
+            <p>Vision for Accelerated Sustainable Development, Ghana (VAST-Ghana) is dedicated to promoting sustainable health and development through evidence-informed advocacy.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Focus Areas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Focus Areas</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tobacco Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Alcohol Control</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Road Safety</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Climate Justice</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Health Promotion</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              No. 8 Abeeku Crescent <br>
+              Accra, Ghana<br><br>
+              <strong>Phone:</strong> +233 30 393 8058<br>
+              <strong>Email:</strong> info@vast-ghana.org<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>VAST-Ghana</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
